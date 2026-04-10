@@ -1,0 +1,957 @@
+{
+  "description": "History concept map \u2014 Knowledge and Understanding, Year 7 to 10. Columns represent ACARA topic units, not year levels. Standards within each unit are parallel aspects, not sequential dependencies. Use level_key to position standards in the correct topic unit column.",
+  "subject": "History",
+  "curriculum": "ACARA v9",
+  "_notes": {
+    "column_model": "Columns are topic units (e.g. 'Deep time history of Australia'), not year levels. Unlike Science or Maths, History K&U descriptors within a unit are parallel aspects of the same topic, not conceptual prerequisites. The dependency tree represents thematic connections across units where they exist, not strict prerequisites.",
+    "renderer_config": "Use levelOrder with topic unit keys. Set rowsPerStrand to match maximum standards per unit (up to 7 for some units)."
+  },
+  "year_levels": {
+    "Y7_deep_time": {
+      "subject": "History",
+      "standards": [
+        {
+          "code": "AC9HH7K01",
+          "title": "Early human migration",
+          "description": "theories and historical interpretations about early human evolution and migration, such as the theory that people moved out of Africa and the causes of migration to other parts of the world, including Australia",
+          "y_goal": "Students explain theories about early human evolution and migration including movement to Australia.",
+          "sub_strand": "all",
+          "level_key": "Y7_deep_time"
+        },
+        {
+          "code": "AC9HH7K02",
+          "title": "Arrival on the Australian continent",
+          "description": "theories about the causes and effects of the arrival of early First Nations Australians on the Australian continent and their migration routes across the continent",
+          "y_goal": "Students explain theories about the arrival of early First Nations Australians and their migration routes.",
+          "sub_strand": "all",
+          "level_key": "Y7_deep_time"
+        },
+        {
+          "code": "AC9HH7K03",
+          "title": "Continuity over deep time",
+          "description": "how First Nations Australians are the world's oldest continuing cultures, displaying evidence of both continuity and change over deep time",
+          "y_goal": "Students explain how First Nations Australians are the world's oldest continuing cultures showing continuity and change.",
+          "sub_strand": "all",
+          "level_key": "Y7_deep_time"
+        },
+        {
+          "code": "AC9HH7K04",
+          "title": "Environmental response over time",
+          "description": "how First Nations Australians have responded to environmental processes and changes over time",
+          "y_goal": "Students explain how First Nations Australians responded to environmental processes and changes over time.",
+          "sub_strand": "all",
+          "level_key": "Y7_deep_time"
+        },
+        {
+          "code": "AC9HH7K05",
+          "title": "Early technological achievements",
+          "description": "the technological achievements of early First Nations Australians, and how these developed in different places and contributed to daily life, and land and water source management",
+          "y_goal": "Students explain technological achievements of early First Nations Australians and their contribution to daily life and land management.",
+          "sub_strand": "all",
+          "level_key": "Y7_deep_time"
+        },
+        {
+          "code": "AC9HH7K06",
+          "title": "Social organisation and cultural practice",
+          "description": "the social organisation and cultural practices of early First Nations Australians, and their continuity and change over time",
+          "y_goal": "Students explain the social organisation and cultural practices of early First Nations Australians and their continuity and change.",
+          "sub_strand": "all",
+          "level_key": "Y7_deep_time"
+        },
+        {
+          "code": "AC9HH7K07",
+          "title": "Cultural preservation and heritage",
+          "description": "the cultural obligations of First Nations Australians about significant heritage sites, including ancestral remains, material culture and artefacts, and the role of collaboration between First Nations Australians and other individuals and groups to ensure cultural preservation",
+          "y_goal": "Students explain cultural obligations relating to heritage sites and the role of collaboration in cultural preservation.",
+          "sub_strand": "all",
+          "level_key": "Y7_deep_time"
+        }
+      ]
+    },
+    "Y7_ancient": {
+      "subject": "History",
+      "standards": [
+        {
+          "code": "AC9HH7K08",
+          "title": "Historical and archaeological evidence",
+          "description": "the different methods and sources of evidence used by historians and archaeologists to investigate early societies, and the importance of archaeology and conserving the remains, material culture and heritage of the past",
+          "y_goal": "Students explain methods and sources used to investigate early societies and the importance of archaeology and conservation.",
+          "sub_strand": "all",
+          "level_key": "Y7_ancient"
+        },
+        {
+          "code": "AC9HH7K09",
+          "title": "Environment and ancient development",
+          "description": "how the physical environment and geographical features influenced the development of the ancient society",
+          "y_goal": "Students explain how physical environment influenced the development of an ancient society.",
+          "sub_strand": "all",
+          "level_key": "Y7_ancient"
+        },
+        {
+          "code": "AC9HH7K10",
+          "title": "Roles and groups in ancient society",
+          "description": "the organisation and roles of key groups in ancient society such as the nobility, bureaucracy, women and slaves, and how they influenced and changed society",
+          "y_goal": "Students explain the organisation and roles of key groups in ancient society and how they influenced change.",
+          "sub_strand": "all",
+          "level_key": "Y7_ancient"
+        },
+        {
+          "code": "AC9HH7K11",
+          "title": "Beliefs, values and practices",
+          "description": "key beliefs, values and practices of an ancient society, with a particular emphasis on one of the following areas: everyday life, warfare, or death and funerary customs",
+          "y_goal": "Students explain key beliefs, values and practices of an ancient society.",
+          "sub_strand": "all",
+          "level_key": "Y7_ancient"
+        },
+        {
+          "code": "AC9HH7K12",
+          "title": "Contacts, conflicts and change",
+          "description": "causes and effects of contacts and conflicts within ancient societies and/or with other societies, resulting in developments such as the conquest of other lands, the expansion of trade and peace treaties",
+          "y_goal": "Students explain the causes and effects of contacts and conflicts within and between ancient societies.",
+          "sub_strand": "all",
+          "level_key": "Y7_ancient"
+        },
+        {
+          "code": "AC9HH7K13",
+          "title": "Significant individual in ancient society",
+          "description": "the role and achievements of a significant individual in an ancient society",
+          "y_goal": "Students explain the role and achievements of a significant individual in an ancient society.",
+          "sub_strand": "all",
+          "level_key": "Y7_ancient"
+        }
+      ]
+    },
+    "Y8_medieval": {
+      "subject": "History",
+      "standards": [
+        {
+          "code": "AC9HH8K01",
+          "title": "Transformation to early modern world",
+          "description": "the transformation of the ancient world to the early modern world, from the decline of the Roman Empire in western Europe through Medieval, Renaissance or pre-modern Europe",
+          "y_goal": "Students explain the transformation from the ancient world to the early modern world.",
+          "sub_strand": "all",
+          "level_key": "Y8_medieval"
+        },
+        {
+          "code": "AC9HH8K02",
+          "title": "Groups in Medieval Europe",
+          "description": "the roles and relationships of different groups in Medieval, Renaissance or pre-modern Europe",
+          "y_goal": "Students explain the roles and relationships of different groups in Medieval, Renaissance or pre-modern Europe.",
+          "sub_strand": "all",
+          "level_key": "Y8_medieval"
+        },
+        {
+          "code": "AC9HH8K03",
+          "title": "Turning points in Medieval Europe",
+          "description": "a significant event, development, turning point or challenge that contributed to continuity and change in Medieval, Renaissance or pre-modern Europe",
+          "y_goal": "Students explain a significant turning point that contributed to continuity and change in Medieval, Renaissance or pre-modern Europe.",
+          "sub_strand": "all",
+          "level_key": "Y8_medieval"
+        },
+        {
+          "code": "AC9HH8K04",
+          "title": "Power and authority in Medieval Europe",
+          "description": "the experiences and perspectives of rulers and of subject peoples, and the interaction between power and/or authority in Medieval, Renaissance or pre-modern Europe",
+          "y_goal": "Students explain experiences and perspectives of rulers and subjects, and the interaction between power and authority in Medieval Europe.",
+          "sub_strand": "all",
+          "level_key": "Y8_medieval"
+        },
+        {
+          "code": "AC9HH8K05",
+          "title": "Significant individuals in Medieval Europe",
+          "description": "the role and achievements of a significant individual and/or group in Medieval, Renaissance or pre-modern Europe",
+          "y_goal": "Students explain the role and achievements of a significant individual or group in Medieval, Renaissance or pre-modern Europe.",
+          "sub_strand": "all",
+          "level_key": "Y8_medieval"
+        },
+        {
+          "code": "AC9HH8K06",
+          "title": "Interpretations of Medieval Europe",
+          "description": "interpretations about an event, individual, group, institution or movement in Medieval, Renaissance or pre-modern Europe",
+          "y_goal": "Students explain interpretations about an event, individual, group, institution or movement in Medieval, Renaissance or pre-modern Europe.",
+          "sub_strand": "all",
+          "level_key": "Y8_medieval"
+        }
+      ]
+    },
+    "Y8_empires": {
+      "subject": "History",
+      "standards": [
+        {
+          "code": "AC9HH8K07",
+          "title": "Features of empire and expansion",
+          "description": "the significant social, religious, cultural, economic, environmental and/or political features of different groups related to the empire and/or expansion",
+          "y_goal": "Students explain significant features of groups related to empire and expansion.",
+          "sub_strand": "all",
+          "level_key": "Y8_empires"
+        },
+        {
+          "code": "AC9HH8K08",
+          "title": "Turning points in empire",
+          "description": "a significant event, development, turning point or challenge that contributed to continuity and change related to the empire and/or expansion",
+          "y_goal": "Students explain a significant turning point related to empire and expansion.",
+          "sub_strand": "all",
+          "level_key": "Y8_empires"
+        },
+        {
+          "code": "AC9HH8K09",
+          "title": "Power and authority in empire",
+          "description": "the experiences and perspectives of rulers and of subject peoples, and how the interaction between power and/or authority relates to the empire and/or expansion",
+          "y_goal": "Students explain experiences and perspectives of rulers and subjects and the interaction between power and authority in empire.",
+          "sub_strand": "all",
+          "level_key": "Y8_empires"
+        },
+        {
+          "code": "AC9HH8K10",
+          "title": "Significant individuals in empire",
+          "description": "the role and achievements of a significant individual and/or group connected to the empire and/or expansion",
+          "y_goal": "Students explain the role and achievements of a significant individual or group connected to empire and expansion.",
+          "sub_strand": "all",
+          "level_key": "Y8_empires"
+        },
+        {
+          "code": "AC9HH8K11",
+          "title": "Interpretations of empire",
+          "description": "interpretations about the society and events, and/or individuals and/or groups connected to the empire and/or expansion",
+          "y_goal": "Students explain interpretations about societies, events, individuals and groups connected to empire and expansion.",
+          "sub_strand": "all",
+          "level_key": "Y8_empires"
+        }
+      ]
+    },
+    "Y8_asia_pacific": {
+      "subject": "History",
+      "standards": [
+        {
+          "code": "AC9HH8K12",
+          "title": "Features of an Asia-Pacific society",
+          "description": "the significant social, religious, cultural, economic, environmental and/or political features of different groups in the Asian-Pacific society",
+          "y_goal": "Students explain significant features of groups in an Asia-Pacific society.",
+          "sub_strand": "all",
+          "level_key": "Y8_asia_pacific"
+        },
+        {
+          "code": "AC9HH8K13",
+          "title": "Turning points in the Asia-Pacific world",
+          "description": "a significant development, event, turning point or challenge that contributed to continuity and change in the Asian-Pacific society",
+          "y_goal": "Students explain a significant turning point that contributed to continuity and change in an Asia-Pacific society.",
+          "sub_strand": "all",
+          "level_key": "Y8_asia_pacific"
+        },
+        {
+          "code": "AC9HH8K14",
+          "title": "Power and authority in Asia-Pacific",
+          "description": "the experiences and perspectives of rulers and of subject peoples, and the interaction between power and/or authority in the Asian-Pacific society",
+          "y_goal": "Students explain experiences and perspectives of rulers and subjects and the interaction between power and authority in an Asia-Pacific society.",
+          "sub_strand": "all",
+          "level_key": "Y8_asia_pacific"
+        },
+        {
+          "code": "AC9HH8K15",
+          "title": "Significant individuals in Asia-Pacific",
+          "description": "the role and achievements of a significant individual and/or group in the Asian-Pacific society",
+          "y_goal": "Students explain the role and achievements of a significant individual or group in an Asia-Pacific society.",
+          "sub_strand": "all",
+          "level_key": "Y8_asia_pacific"
+        },
+        {
+          "code": "AC9HH8K16",
+          "title": "Interpretations of Asia-Pacific world",
+          "description": "interpretations about the Asian-Pacific society and events, and/or individuals and/or groups connected to the society",
+          "y_goal": "Students explain interpretations about an Asia-Pacific society and related events, individuals and groups.",
+          "sub_strand": "all",
+          "level_key": "Y8_asia_pacific"
+        }
+      ]
+    },
+    "Y9_australian_nation": {
+      "subject": "History",
+      "standards": [
+        {
+          "code": "AC9HH9K01",
+          "title": "European imperial expansion",
+          "description": "the causes and effects of European imperial expansion and the movement of peoples in the late 18th and early 19th centuries, and the different responses to colonisation and migration",
+          "y_goal": "Students explain the causes and effects of European imperial expansion and responses to colonisation and migration.",
+          "sub_strand": "all",
+          "level_key": "Y9_australian_nation"
+        },
+        {
+          "code": "AC9HH9K02",
+          "title": "Changes in Australian society",
+          "description": "the key social, cultural, economic and political changes and their significance in the development of Australian society during the period",
+          "y_goal": "Students explain key social, cultural, economic and political changes in the development of Australian society.",
+          "sub_strand": "all",
+          "level_key": "Y9_australian_nation"
+        },
+        {
+          "code": "AC9HH9K03",
+          "title": "Contact and First Nations impact",
+          "description": "the causes and effects of European contact and extension of settlement, including their impact on the First Nations Peoples of Australia",
+          "y_goal": "Students explain the causes and effects of European contact and settlement including impacts on First Nations Peoples.",
+          "sub_strand": "all",
+          "level_key": "Y9_australian_nation"
+        },
+        {
+          "code": "AC9HH9K04",
+          "title": "Events and movements in Australian development",
+          "description": "significant events, ideas, people, groups and movements in the development of Australian society",
+          "y_goal": "Students explain significant events, ideas, people, groups and movements in the development of Australian society.",
+          "sub_strand": "all",
+          "level_key": "Y9_australian_nation"
+        },
+        {
+          "code": "AC9HH9K05",
+          "title": "Continuity and change in Australian life",
+          "description": "continuities and changes and their effects on ways of life and living conditions, political and legal institutions, and cultural expression around the turn of the 20th century in Australian society",
+          "y_goal": "Students explain continuities and changes and their effects on ways of life, institutions and cultural expression in Australian society.",
+          "sub_strand": "all",
+          "level_key": "Y9_australian_nation"
+        },
+        {
+          "code": "AC9HH9K06",
+          "title": "Perspectives on colonisation",
+          "description": "different experiences and perspectives of colonisers, settlers and First Nations Australians and the impact of these experiences on changes to Australian society's ideas, beliefs and values",
+          "y_goal": "Students explain different perspectives of colonisers, settlers and First Nations Australians and their impact on Australian society.",
+          "sub_strand": "all",
+          "level_key": "Y9_australian_nation"
+        },
+        {
+          "code": "AC9HH9K07",
+          "title": "Australia in a changing world",
+          "description": "the development of Australian society in relation to other nations in the world by 1914, including the effects of ideas and movements of people",
+          "y_goal": "Students explain the development of Australian society in relation to other nations by 1914.",
+          "sub_strand": "all",
+          "level_key": "Y9_australian_nation"
+        }
+      ]
+    },
+    "Y9_ww1": {
+      "subject": "History",
+      "standards": [
+        {
+          "code": "AC9HH9K08",
+          "title": "Causes of the First World War",
+          "description": "the causes of the First World War and the reasons why Australians enlisted to fight in the war",
+          "y_goal": "Students explain the causes of the First World War and why Australians enlisted.",
+          "sub_strand": "all",
+          "level_key": "Y9_ww1"
+        },
+        {
+          "code": "AC9HH9K09",
+          "title": "Australian experiences of war",
+          "description": "the places of significance where Australians fought, their perspectives and experiences, including the Gallipoli campaign, the Western Front and the Middle East",
+          "y_goal": "Students explain where Australians fought and their perspectives and experiences in the First World War.",
+          "sub_strand": "all",
+          "level_key": "Y9_ww1"
+        },
+        {
+          "code": "AC9HH9K10",
+          "title": "Turning points of the First World War",
+          "description": "significant events and turning points of the war and the nature of warfare, including the Western Front Battle of the Somme and the Armistice",
+          "y_goal": "Students explain significant events and turning points of the First World War and the nature of warfare.",
+          "sub_strand": "all",
+          "level_key": "Y9_ww1"
+        },
+        {
+          "code": "AC9HH9K11",
+          "title": "Effects of the First World War",
+          "description": "the effects of the First World War on Australian society, such as the role of women, political debates about conscription, relationships with the British Empire, and the experiences of returned soldiers",
+          "y_goal": "Students explain the effects of the First World War on Australian society.",
+          "sub_strand": "all",
+          "level_key": "Y9_ww1"
+        },
+        {
+          "code": "AC9HH9K12",
+          "title": "Commemoration and Anzac interpretations",
+          "description": "the commemoration of the First World War, including different historical interpretations and debates about the nature and significance of the Anzac legend and the war",
+          "y_goal": "Students explain the commemoration of the First World War including interpretations and debates about the Anzac legend.",
+          "sub_strand": "all",
+          "level_key": "Y9_ww1"
+        }
+      ]
+    },
+    "Y9_industrial": {
+      "subject": "History",
+      "standards": [
+        {
+          "code": "AC9HH9K13",
+          "title": "Industrial Revolution causes and effects",
+          "description": "the social, economic, political, technological and/or environmental causes and effects of the Industrial Revolution on Europe in the late 18th and 19th century",
+          "y_goal": "Students explain the causes and effects of the Industrial Revolution on Europe.",
+          "sub_strand": "all",
+          "level_key": "Y9_industrial"
+        },
+        {
+          "code": "AC9HH9K014",
+          "title": "Population movement and settlement",
+          "description": "the changing population movements and settlement patterns during the period 1750 to 1900",
+          "y_goal": "Students explain changing population movements and settlement patterns 1750 to 1900.",
+          "sub_strand": "all",
+          "level_key": "Y9_industrial"
+        },
+        {
+          "code": "AC9HH9K15",
+          "title": "Effects of population movement",
+          "description": "the short-, medium- and long-term effects of population movements and changing settlement patterns during this period, such as global demographic changes, transport, new ideas, and political and social reforms",
+          "y_goal": "Students explain short-, medium- and long-term effects of population movements during this period.",
+          "sub_strand": "all",
+          "level_key": "Y9_industrial"
+        },
+        {
+          "code": "AC9HH9K16",
+          "title": "Experiences during the Industrial Revolution",
+          "description": "the different perspectives and experiences of men, women and children during the Industrial Revolution, and their changing way of life",
+          "y_goal": "Students explain the perspectives and experiences of men, women and children during the Industrial Revolution.",
+          "sub_strand": "all",
+          "level_key": "Y9_industrial"
+        },
+        {
+          "code": "AC9HH9K17",
+          "title": "Ideas shaping modern society",
+          "description": "the ideas that emerged and influenced change in society, such as nationalism, capitalism, imperialism, socialism, egalitarianism and Chartism",
+          "y_goal": "Students explain the ideas that emerged and influenced change during the Industrial Revolution period.",
+          "sub_strand": "all",
+          "level_key": "Y9_industrial"
+        },
+        {
+          "code": "AC9HH9K18",
+          "title": "Groups promoting change",
+          "description": "the role of a significant individual or group such as agricultural and factory workers, inventors and entrepreneurs, landowners, politicians and religious groups in promoting and enacting some of the ideas that emerged during the Industrial Revolution",
+          "y_goal": "Students explain the role of a significant individual or group in promoting ideas during the Industrial Revolution.",
+          "sub_strand": "all",
+          "level_key": "Y9_industrial"
+        }
+      ]
+    },
+    "Y9_asia_world": {
+      "subject": "History",
+      "standards": [
+        {
+          "code": "AC9HH9K19",
+          "title": "Features of an Asian society",
+          "description": "the key social, cultural, economic and political features of an Asian society during the 18th and early 19th Century",
+          "y_goal": "Students explain key features of an Asian society during the 18th and early 19th century.",
+          "sub_strand": "all",
+          "level_key": "Y9_asia_world"
+        },
+        {
+          "code": "AC9HH9K20",
+          "title": "European contact in Asia",
+          "description": "the causes and effects of European contact, including colonialisation, on an Asian society",
+          "y_goal": "Students explain the causes and effects of European contact including colonisation on an Asian society.",
+          "sub_strand": "all",
+          "level_key": "Y9_asia_world"
+        },
+        {
+          "code": "AC9HH9K21",
+          "title": "Developments in an Asian society",
+          "description": "significant events, ideas, people, groups and/or movements in the development of an Asian society",
+          "y_goal": "Students explain significant events, ideas, people, groups and movements in the development of an Asian society.",
+          "sub_strand": "all",
+          "level_key": "Y9_asia_world"
+        },
+        {
+          "code": "AC9HH9K22",
+          "title": "Continuity and change in an Asian society",
+          "description": "continuities and changes and their effects on the ways of life and living conditions, political and legal institutions, and cultural expression around the turn of the 20th century in an Asian society",
+          "y_goal": "Students explain continuities and changes and their effects on ways of life in an Asian society.",
+          "sub_strand": "all",
+          "level_key": "Y9_asia_world"
+        },
+        {
+          "code": "AC9HH9K23",
+          "title": "Perspectives on colonisation in Asia",
+          "description": "different experiences and perspectives of colonisers and Asian peoples from the time and the impact of changes to society, including events, ideas, beliefs and values",
+          "y_goal": "Students explain different perspectives of colonisers and Asian peoples and the impact of changes to society.",
+          "sub_strand": "all",
+          "level_key": "Y9_asia_world"
+        },
+        {
+          "code": "AC9HH9K24",
+          "title": "Asia in a changing world",
+          "description": "the development of an Asian society in relation to other nations in the world by 1914, including the effects of ideas such as nationalism and self-determination",
+          "y_goal": "Students explain the development of an Asian society in relation to other nations by 1914.",
+          "sub_strand": "all",
+          "level_key": "Y9_asia_world"
+        }
+      ]
+    },
+    "Y10_ww2": {
+      "subject": "History",
+      "standards": [
+        {
+          "code": "AC9HH10K01",
+          "title": "Causes of the Second World War",
+          "description": "the causes, outbreak and course of the Second World War and the significance of Australian involvement",
+          "y_goal": "Students explain the causes, outbreak and course of the Second World War and the significance of Australian involvement.",
+          "sub_strand": "all",
+          "level_key": "Y10_ww2"
+        },
+        {
+          "code": "AC9HH10K02",
+          "title": "Australian experiences in WW2",
+          "description": "the places where Australians fought, and their perspectives and experiences during the Second World War, such as the fall of Singapore, prisoners of war (POWs), the Battle of Britain and Kokoda",
+          "y_goal": "Students explain where Australians fought and their perspectives and experiences during the Second World War.",
+          "sub_strand": "all",
+          "level_key": "Y10_ww2"
+        },
+        {
+          "code": "AC9HH10K03",
+          "title": "Turning points of the Second World War",
+          "description": "the significant events and turning points of the Second World War, including the Holocaust and use of the atomic bomb",
+          "y_goal": "Students explain significant events and turning points of the Second World War including the Holocaust and atomic bomb.",
+          "sub_strand": "all",
+          "level_key": "Y10_ww2"
+        },
+        {
+          "code": "AC9HH10K04",
+          "title": "Home front continuity and change",
+          "description": "the effects of the Second World War, with a particular emphasis on the continuities and changes on the Australian home front, such as the changing roles of women and First Nations Australians, and the use of wartime government controls",
+          "y_goal": "Students explain the effects of the Second World War with emphasis on continuity and change on the Australian home front.",
+          "sub_strand": "all",
+          "level_key": "Y10_ww2"
+        },
+        {
+          "code": "AC9HH10K05",
+          "title": "Post-war significance for Australia",
+          "description": "the significance of the Second World War to Australia's immediate post-war economic, political and social development, and Australia's international relationships in the 20th century",
+          "y_goal": "Students explain the significance of the Second World War to Australia's post-war development and international relationships.",
+          "sub_strand": "all",
+          "level_key": "Y10_ww2"
+        },
+        {
+          "code": "AC9HH10K06",
+          "title": "Commemoration and debate",
+          "description": "the commemoration of the Second World War, including different historical interpretations and debates",
+          "y_goal": "Students explain the commemoration of the Second World War including interpretations and debates.",
+          "sub_strand": "all",
+          "level_key": "Y10_ww2"
+        }
+      ]
+    },
+    "Y10_modern_australia": {
+      "subject": "History",
+      "standards": [
+        {
+          "code": "AC9HH10K07",
+          "title": "Post-war global influences",
+          "description": "the effects of significant post-Second World War world events, ideas and developments on Australian society",
+          "y_goal": "Students explain the effects of significant post-war world events, ideas and developments on Australian society.",
+          "sub_strand": "all",
+          "level_key": "Y10_modern_australia"
+        },
+        {
+          "code": "AC9HH10K08",
+          "title": "Changing perspectives on migration",
+          "description": "the causes of changes in perspectives, responses, beliefs and values on migration that have influenced Australian society since 1945",
+          "y_goal": "Students explain causes of changes in perspectives on migration that have influenced Australian society since 1945.",
+          "sub_strand": "all",
+          "level_key": "Y10_modern_australia"
+        },
+        {
+          "code": "AC9HH10K09",
+          "title": "First Nations rights campaigns",
+          "description": "the causes of First Nations Australians' campaigns for rights and freedoms before 1965, such as discriminatory legislation and policies, the 1938 Day of Mourning and the Stolen Generations",
+          "y_goal": "Students explain the causes of First Nations Australians' campaigns for rights and freedoms before 1965.",
+          "sub_strand": "all",
+          "level_key": "Y10_modern_australia"
+        },
+        {
+          "code": "AC9HH10K10",
+          "title": "Contributions to First Nations rights",
+          "description": "the contributions of significant individuals and groups in the campaign for the recognition of the rights of First Nations Australians and the extent to which they brought change to Australian society",
+          "y_goal": "Students explain contributions of significant individuals and groups in the campaign for First Nations rights.",
+          "sub_strand": "all",
+          "level_key": "Y10_modern_australia"
+        },
+        {
+          "code": "AC9HH10K11",
+          "title": "Civil rights events and methods",
+          "description": "the significant events and methods in the movement for the civil rights of First Nations Australians and the extent to which they contributed to change",
+          "y_goal": "Students explain significant events and methods in the civil rights movement for First Nations Australians.",
+          "sub_strand": "all",
+          "level_key": "Y10_modern_australia"
+        },
+        {
+          "code": "AC9HH10K12",
+          "title": "Women's movement",
+          "description": "the significant events, individuals and groups in the women's movement in Australia, and how they have changed the role and status of women",
+          "y_goal": "Students explain significant events, individuals and groups in the women's movement and how they changed the role and status of women.",
+          "sub_strand": "all",
+          "level_key": "Y10_modern_australia"
+        },
+        {
+          "code": "AC9HH10K13",
+          "title": "Continuing struggles for rights",
+          "description": "the continuing efforts to create change in the civil rights and freedoms in Australia, for First Nations Australians, migrants and women",
+          "y_goal": "Students explain continuing efforts to create change in civil rights and freedoms in Australia.",
+          "sub_strand": "all",
+          "level_key": "Y10_modern_australia"
+        }
+      ]
+    },
+    "Y10_globalising": {
+      "subject": "History",
+      "standards": [
+        {
+          "code": "AC9HH10K14",
+          "title": "Changing perspectives on modern life",
+          "description": "changing historical perspectives over time in relation to the developments in technology, public health, longevity, standard of living in the 20th century, and concern for the environment and sustainability",
+          "y_goal": "Students explain changing historical perspectives on technology, public health, living standards and environmental concern.",
+          "sub_strand": "all",
+          "level_key": "Y10_globalising"
+        },
+        {
+          "code": "AC9HH10K15",
+          "title": "Universal Declaration of Human Rights",
+          "description": "the origins and significance of the Universal Declaration of Human Rights, including Australia's involvement in the development of the declaration",
+          "y_goal": "Students explain the origins and significance of the Universal Declaration of Human Rights.",
+          "sub_strand": "all",
+          "level_key": "Y10_globalising"
+        },
+        {
+          "code": "AC9HH10K16",
+          "title": "Major global influences on Australia",
+          "description": "causes and effects of the significant events and developments of the major global influences on Australia in the post-Second World War period",
+          "y_goal": "Students explain causes and effects of major global influences on Australia in the post-war period.",
+          "sub_strand": "all",
+          "level_key": "Y10_globalising"
+        },
+        {
+          "code": "AC9HH10K17",
+          "title": "Changing conditions in post-war Australia",
+          "description": "changing social, political, economic, cultural, environmental and technological conditions, and the causes of a major global influence in Australia",
+          "y_goal": "Students explain changing conditions and causes of a major global influence in Australia.",
+          "sub_strand": "all",
+          "level_key": "Y10_globalising"
+        },
+        {
+          "code": "AC9HH10K18",
+          "title": "Continuity and change in Australian life",
+          "description": "continuities and changes in perspectives, responses, beliefs and values that have influenced the Australian way of life",
+          "y_goal": "Students explain continuities and changes in perspectives and values that have influenced the Australian way of life.",
+          "sub_strand": "all",
+          "level_key": "Y10_globalising"
+        },
+        {
+          "code": "AC9HH10K19",
+          "title": "Global influences on national identity",
+          "description": "the effects of global influences on Australia's changing identity as a nation and its international relationships",
+          "y_goal": "Students explain the effects of global influences on Australia's changing national identity and international relationships.",
+          "sub_strand": "all",
+          "level_key": "Y10_globalising"
+        },
+        {
+          "code": "AC9HH10K20",
+          "title": "Historical debates",
+          "description": "different historical interpretations and debates during the second half of the 20th century",
+          "y_goal": "Students explain different historical interpretations and debates during the second half of the 20th century.",
+          "sub_strand": "all",
+          "level_key": "Y10_globalising"
+        }
+      ]
+    }
+  },
+  "progression_threads": {
+    "description": "Strands follow ACARA's topic unit headings. Within each unit descriptors are parallel aspects not sequential \u2014 no dependency arrows between them. Cross-unit connections shown where thematic links exist.",
+    "strands": {
+      "all": {
+        "label": "History",
+        "tree": [
+          {
+            "code": "AC9HH7K01",
+            "children": []
+          },
+          {
+            "code": "AC9HH7K02",
+            "children": []
+          },
+          {
+            "code": "AC9HH7K03",
+            "children": []
+          },
+          {
+            "code": "AC9HH7K04",
+            "children": []
+          },
+          {
+            "code": "AC9HH7K05",
+            "children": []
+          },
+          {
+            "code": "AC9HH7K06",
+            "children": []
+          },
+          {
+            "code": "AC9HH7K07",
+            "children": []
+          },
+          {
+            "code": "AC9HH7K08",
+            "children": []
+          },
+          {
+            "code": "AC9HH7K09",
+            "children": []
+          },
+          {
+            "code": "AC9HH7K10",
+            "children": []
+          },
+          {
+            "code": "AC9HH7K11",
+            "children": []
+          },
+          {
+            "code": "AC9HH7K12",
+            "children": []
+          },
+          {
+            "code": "AC9HH7K13",
+            "children": []
+          },
+          {
+            "code": "AC9HH8K01",
+            "children": []
+          },
+          {
+            "code": "AC9HH8K02",
+            "children": []
+          },
+          {
+            "code": "AC9HH8K03",
+            "children": []
+          },
+          {
+            "code": "AC9HH8K04",
+            "children": []
+          },
+          {
+            "code": "AC9HH8K05",
+            "children": []
+          },
+          {
+            "code": "AC9HH8K06",
+            "children": []
+          },
+          {
+            "code": "AC9HH8K07",
+            "children": []
+          },
+          {
+            "code": "AC9HH8K08",
+            "children": []
+          },
+          {
+            "code": "AC9HH8K09",
+            "children": []
+          },
+          {
+            "code": "AC9HH8K10",
+            "children": []
+          },
+          {
+            "code": "AC9HH8K11",
+            "children": []
+          },
+          {
+            "code": "AC9HH8K12",
+            "children": []
+          },
+          {
+            "code": "AC9HH8K13",
+            "children": []
+          },
+          {
+            "code": "AC9HH8K14",
+            "children": []
+          },
+          {
+            "code": "AC9HH8K15",
+            "children": []
+          },
+          {
+            "code": "AC9HH8K16",
+            "children": []
+          },
+          {
+            "code": "AC9HH9K01",
+            "children": []
+          },
+          {
+            "code": "AC9HH9K02",
+            "children": []
+          },
+          {
+            "code": "AC9HH9K03",
+            "children": []
+          },
+          {
+            "code": "AC9HH9K04",
+            "children": []
+          },
+          {
+            "code": "AC9HH9K05",
+            "children": []
+          },
+          {
+            "code": "AC9HH9K06",
+            "children": []
+          },
+          {
+            "code": "AC9HH9K07",
+            "children": []
+          },
+          {
+            "code": "AC9HH9K08",
+            "children": []
+          },
+          {
+            "code": "AC9HH9K09",
+            "children": []
+          },
+          {
+            "code": "AC9HH9K10",
+            "children": []
+          },
+          {
+            "code": "AC9HH9K11",
+            "children": []
+          },
+          {
+            "code": "AC9HH9K12",
+            "children": []
+          },
+          {
+            "code": "AC9HH9K13",
+            "children": []
+          },
+          {
+            "code": "AC9HH9K014",
+            "children": []
+          },
+          {
+            "code": "AC9HH9K15",
+            "children": []
+          },
+          {
+            "code": "AC9HH9K16",
+            "children": []
+          },
+          {
+            "code": "AC9HH9K17",
+            "children": []
+          },
+          {
+            "code": "AC9HH9K18",
+            "children": []
+          },
+          {
+            "code": "AC9HH9K19",
+            "children": []
+          },
+          {
+            "code": "AC9HH9K20",
+            "children": []
+          },
+          {
+            "code": "AC9HH9K21",
+            "children": []
+          },
+          {
+            "code": "AC9HH9K22",
+            "children": []
+          },
+          {
+            "code": "AC9HH9K23",
+            "children": []
+          },
+          {
+            "code": "AC9HH9K24",
+            "children": []
+          },
+          {
+            "code": "AC9HH10K01",
+            "children": []
+          },
+          {
+            "code": "AC9HH10K02",
+            "children": []
+          },
+          {
+            "code": "AC9HH10K03",
+            "children": []
+          },
+          {
+            "code": "AC9HH10K04",
+            "children": []
+          },
+          {
+            "code": "AC9HH10K05",
+            "children": []
+          },
+          {
+            "code": "AC9HH10K06",
+            "children": []
+          },
+          {
+            "code": "AC9HH10K07",
+            "children": []
+          },
+          {
+            "code": "AC9HH10K08",
+            "children": []
+          },
+          {
+            "code": "AC9HH10K09",
+            "children": []
+          },
+          {
+            "code": "AC9HH10K10",
+            "children": []
+          },
+          {
+            "code": "AC9HH10K11",
+            "children": []
+          },
+          {
+            "code": "AC9HH10K12",
+            "children": []
+          },
+          {
+            "code": "AC9HH10K13",
+            "children": []
+          },
+          {
+            "code": "AC9HH10K14",
+            "children": []
+          },
+          {
+            "code": "AC9HH10K15",
+            "children": []
+          },
+          {
+            "code": "AC9HH10K16",
+            "children": []
+          },
+          {
+            "code": "AC9HH10K17",
+            "children": []
+          },
+          {
+            "code": "AC9HH10K18",
+            "children": []
+          },
+          {
+            "code": "AC9HH10K19",
+            "children": []
+          },
+          {
+            "code": "AC9HH10K20",
+            "children": []
+          }
+        ]
+      }
+    }
+  }
+}

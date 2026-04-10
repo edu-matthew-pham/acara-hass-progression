@@ -1,0 +1,330 @@
+{
+  "description": "Civics and Citizenship concept progression map \u2014 Knowledge and Understanding, Year 7 to 10. Three ACARA sub-strands: Government and democracy, Laws and citizens, Citizenship diversity and identity.",
+  "subject": "Civics and Citizenship",
+  "curriculum": "ACARA v9",
+  "year_levels": {
+    "7": {
+      "subject": "Civics and Citizenship",
+      "standards": [
+        {
+          "code": "AC9HC7K01",
+          "title": "Government foundations",
+          "description": "the key features of Australia's system of government, including democracy, the Australian Constitution, responsible government and federalism",
+          "y_goal": "Students explain the key features of Australia's system of government including democracy, the Constitution, responsible government and federalism.",
+          "sub_strand": "government_democracy",
+          "level_key": "7"
+        },
+        {
+          "code": "AC9HC7K02",
+          "title": "Democratic freedoms",
+          "description": "the characteristics of Australia's democracy, including freedom of speech, association, assembly, religion and movement",
+          "y_goal": "Students explain the characteristics of Australia's democracy including freedom of speech, association, assembly, religion and movement.",
+          "sub_strand": "government_democracy",
+          "level_key": "7"
+        },
+        {
+          "code": "AC9HC7K03",
+          "title": "Legal system foundations",
+          "description": "the key principles and features of the Australian legal system, including the Australian Constitution, the rule of law and the court system",
+          "y_goal": "Students explain the key principles and features of the Australian legal system including the Constitution, rule of law and court system.",
+          "sub_strand": "laws_citizens",
+          "level_key": "7"
+        },
+        {
+          "code": "AC9HC7K04",
+          "title": "Pluralism and cultural origins",
+          "description": "how Australia's secular democracy and pluralist, multi-faith society draws upon diverse cultural origins, including Christian and Western heritage, distinct First Nations Australian histories and cultures, and migrant communities",
+          "y_goal": "Students explain how Australia's secular democracy and pluralist society draws upon diverse cultural origins including First Nations histories and migrant communities.",
+          "sub_strand": "citizenship_identity",
+          "level_key": "7"
+        },
+        {
+          "code": "AC9HC7K05",
+          "title": "Democratic values",
+          "description": "how values based on freedom, respect, fairness and equality of opportunity can support social cohesion and democracy within Australian society",
+          "y_goal": "Students explain how values of freedom, respect, fairness and equality support social cohesion and democracy.",
+          "sub_strand": "citizenship_identity",
+          "level_key": "7"
+        }
+      ]
+    },
+    "8": {
+      "subject": "Civics and Citizenship",
+      "standards": [
+        {
+          "code": "AC9HC8K01",
+          "title": "Democratic participation",
+          "description": "how Australians are informed about and participate in democracy",
+          "y_goal": "Students explain how Australians are informed about and participate in democracy.",
+          "sub_strand": "government_democracy",
+          "level_key": "8"
+        },
+        {
+          "code": "AC9HC8K02",
+          "title": "Political representation",
+          "description": "the role of political parties and independent representatives in Australian democracy, including elections and the formation of governments",
+          "y_goal": "Students explain the role of political parties and independent representatives in Australian democracy including elections and government formation.",
+          "sub_strand": "government_democracy",
+          "level_key": "8"
+        },
+        {
+          "code": "AC9HC8K03",
+          "title": "Law-making processes",
+          "description": "the characteristics of laws and how laws are made in Australia through parliaments (statutory law) and through the courts (common law)",
+          "y_goal": "Students explain the characteristics of laws and how laws are made through parliaments and courts.",
+          "sub_strand": "laws_citizens",
+          "level_key": "8"
+        },
+        {
+          "code": "AC9HC8K04",
+          "title": "Types of law",
+          "description": "the types of law in Australia, including criminal law and civil law, and the place of First Nations Australian customary law",
+          "y_goal": "Students explain the types of law in Australia including criminal, civil and First Nations customary law.",
+          "sub_strand": "laws_citizens",
+          "level_key": "8"
+        },
+        {
+          "code": "AC9HC8K05",
+          "title": "Culture, religion and citizenship",
+          "description": "how culture and religion may influence individuals' and groups' perceptions and expressions of citizenship and their actions as citizens",
+          "y_goal": "Students explain how culture and religion influence perceptions and expressions of citizenship.",
+          "sub_strand": "citizenship_identity",
+          "level_key": "8"
+        },
+        {
+          "code": "AC9HC8K06",
+          "title": "National identity debates",
+          "description": "different experiences of, perspectives on and debates about Australia's national identity and citizenship, including the perspectives of First Nations Australians as owners of their respective nations, and of different migrant groups",
+          "y_goal": "Students explain different perspectives on and debates about Australia's national identity including First Nations and migrant perspectives.",
+          "sub_strand": "citizenship_identity",
+          "level_key": "8"
+        }
+      ]
+    },
+    "9": {
+      "subject": "Civics and Citizenship",
+      "standards": [
+        {
+          "code": "AC9HC9K01",
+          "title": "Constitution and democratic processes",
+          "description": "the role of the Australian Constitution in providing the basis for Australia's federal system of government and democratic processes, including institutions, and the process for constitutional change through a referendum",
+          "y_goal": "Students explain the role of the Australian Constitution in Australia's federal system and the process for constitutional change through referendum.",
+          "sub_strand": "government_democracy",
+          "level_key": "9"
+        },
+        {
+          "code": "AC9HC9K02",
+          "title": "Legislative policy processes",
+          "description": "the legislative processes through which federal government policy is shaped, developed and implemented",
+          "y_goal": "Students explain the legislative processes through which federal government policy is shaped, developed and implemented.",
+          "sub_strand": "government_democracy",
+          "level_key": "9"
+        },
+        {
+          "code": "AC9HC9K03",
+          "title": "Court jurisdictions and tribunals",
+          "description": "the key features and jurisdictions of Australia's court system, and the operations of courts and tribunals",
+          "y_goal": "Students explain the key features and jurisdictions of Australia's court system and the operations of courts and tribunals.",
+          "sub_strand": "laws_citizens",
+          "level_key": "9"
+        },
+        {
+          "code": "AC9HC9K04",
+          "title": "Trials, roles and rights",
+          "description": "the role of courts, judges, lawyers and juries in trials, and the rights of the accused and the rights of victims",
+          "y_goal": "Students explain the role of courts, judges, lawyers and juries in trials and the rights of the accused and victims.",
+          "sub_strand": "laws_citizens",
+          "level_key": "9"
+        },
+        {
+          "code": "AC9HC9K05",
+          "title": "Civic and global participation",
+          "description": "how and why individuals and groups, including community, religious and cultural groups, participate in and contribute to civic life in Australia and to global citizenship",
+          "y_goal": "Students explain how and why individuals and groups participate in civic life in Australia and contribute to global citizenship.",
+          "sub_strand": "citizenship_identity",
+          "level_key": "9"
+        },
+        {
+          "code": "AC9HC9K06",
+          "title": "Media influence on identity",
+          "description": "the influence of a range of media, including social media, in shaping identity and attitudes to diversity",
+          "y_goal": "Students explain the influence of media including social media in shaping identity and attitudes to diversity.",
+          "sub_strand": "citizenship_identity",
+          "level_key": "9"
+        }
+      ]
+    },
+    "10": {
+      "subject": "Civics and Citizenship",
+      "standards": [
+        {
+          "code": "AC9HC10K01",
+          "title": "Comparing systems of government",
+          "description": "the key features and values of Australia's system of government compared with at least one other democratic or non-democratic system of government in the Asia-Pacific region",
+          "y_goal": "Students compare the key features and values of Australia's system of government with at least one other system in the Asia-Pacific region.",
+          "sub_strand": "government_democracy",
+          "level_key": "10"
+        },
+        {
+          "code": "AC9HC10K02",
+          "title": "Regional and global government roles",
+          "description": "the Australian Government's role and responsibilities at a regional and global level",
+          "y_goal": "Students explain the Australian Government's role and responsibilities at a regional and global level.",
+          "sub_strand": "government_democracy",
+          "level_key": "10"
+        },
+        {
+          "code": "AC9HC10K03",
+          "title": "Parliament, High Court and rights",
+          "description": "the role of the parliament and the High Court of Australia in protecting rights under the Constitution, common law, and through federal and state statute law",
+          "y_goal": "Students explain the role of parliament and the High Court in protecting rights under the Constitution, common law and statute law.",
+          "sub_strand": "laws_citizens",
+          "level_key": "10"
+        },
+        {
+          "code": "AC9HC10K04",
+          "title": "International law and policy",
+          "description": "how Australia's international legal obligations shape Australian law and government policies, including those relating to First Nations Australians, and the issues related to the application of these obligations",
+          "y_goal": "Students explain how Australia's international legal obligations shape Australian law and government policies.",
+          "sub_strand": "laws_citizens",
+          "level_key": "10"
+        },
+        {
+          "code": "AC9HC10K05",
+          "title": "Sustaining democracy and cohesion",
+          "description": "the challenges to and ways of sustaining a resilient democracy and a cohesive society in Australia and/or in our region or globally",
+          "y_goal": "Students explain the challenges to and ways of sustaining a resilient democracy and cohesive society in Australia and globally.",
+          "sub_strand": "citizenship_identity",
+          "level_key": "10"
+        }
+      ]
+    }
+  },
+  "progression_threads": {
+    "description": "Concept dependency chains following ACARA sub-strand headings.",
+    "strands": {
+      "government_democracy": {
+        "label": "Government and democracy",
+        "tree": [
+          {
+            "code": "AC9HC7K01",
+            "children": [
+              {
+                "code": "AC9HC7K02",
+                "children": [
+                  {
+                    "code": "AC9HC8K01",
+                    "children": [
+                      {
+                        "code": "AC9HC8K02",
+                        "children": [
+                          {
+                            "code": "AC9HC9K01",
+                            "children": [
+                              {
+                                "code": "AC9HC9K02",
+                                "children": [
+                                  {
+                                    "code": "AC9HC10K01",
+                                    "children": [
+                                      {
+                                        "code": "AC9HC10K02",
+                                        "children": []
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "laws_citizens": {
+        "label": "Laws and citizens",
+        "tree": [
+          {
+            "code": "AC9HC7K03",
+            "children": [
+              {
+                "code": "AC9HC8K03",
+                "children": [
+                  {
+                    "code": "AC9HC8K04",
+                    "children": [
+                      {
+                        "code": "AC9HC9K03",
+                        "children": [
+                          {
+                            "code": "AC9HC9K04",
+                            "children": [
+                              {
+                                "code": "AC9HC10K03",
+                                "children": [
+                                  {
+                                    "code": "AC9HC10K04",
+                                    "children": []
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "citizenship_identity": {
+        "label": "Citizenship, diversity and identity",
+        "tree": [
+          {
+            "code": "AC9HC7K04",
+            "children": [
+              {
+                "code": "AC9HC7K05",
+                "children": [
+                  {
+                    "code": "AC9HC8K05",
+                    "children": [
+                      {
+                        "code": "AC9HC8K06",
+                        "children": [
+                          {
+                            "code": "AC9HC9K05",
+                            "children": [
+                              {
+                                "code": "AC9HC9K06",
+                                "children": [
+                                  {
+                                    "code": "AC9HC10K05",
+                                    "children": []
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

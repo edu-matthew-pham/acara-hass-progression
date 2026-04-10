@@ -1,0 +1,360 @@
+{
+  "description": "History capability progression map — Skills, Year 7 to 10.",
+  "subject": "History",
+  "curriculum": "ACARA v9",
+  "levels": {
+    "7": {
+      "label": "Year 7",
+      "standards": [
+        {
+          "code": "AC9HH7S01",
+          "title": "Develop historical questions",
+          "description": "develop historical questions about the past to inform historical inquiry",
+          "capability_goal": "Students develop historical questions about the past to inform historical inquiry.",
+          "sub_strand": "questioning",
+          "level_key": "7"
+        },
+        {
+          "code": "AC9HH7S02",
+          "title": "Locate primary and secondary sources",
+          "description": "locate and identify primary and secondary sources to use in historical inquiry",
+          "capability_goal": "Students locate and identify primary and secondary sources to use in historical inquiry.",
+          "sub_strand": "researching",
+          "level_key": "7"
+        },
+        {
+          "code": "AC9HH7S03",
+          "title": "Identify source origin and purpose",
+          "description": "identify the origin, content, context and purpose of primary and secondary sources",
+          "capability_goal": "Students identify the origin, content, context and purpose of primary and secondary sources.",
+          "sub_strand": "using_sources",
+          "level_key": "7"
+        },
+        {
+          "code": "AC9HH7S04",
+          "title": "Describe source usefulness",
+          "description": "identify and describe the accuracy and usefulness of primary and secondary sources as evidence",
+          "capability_goal": "Students identify and describe the accuracy and usefulness of primary and secondary sources as evidence.",
+          "sub_strand": "using_sources",
+          "level_key": "7"
+        },
+        {
+          "code": "AC9HH7S05",
+          "title": "Describe cause and continuity",
+          "description": "describe causes and effects, and explain continuities and changes",
+          "capability_goal": "Students describe causes and effects, and explain continuities and changes.",
+          "sub_strand": "historical_interpretation",
+          "level_key": "7"
+        },
+        {
+          "code": "AC9HH7S06",
+          "title": "Identify past perspectives",
+          "description": "identify perspectives, attitudes and values of the past in sources",
+          "capability_goal": "Students identify perspectives, attitudes and values of the past in sources.",
+          "sub_strand": "historical_interpretation",
+          "level_key": "7"
+        },
+        {
+          "code": "AC9HH7S07",
+          "title": "Explain historical interpretations",
+          "description": "explain historical interpretations about significant events, individuals and groups",
+          "capability_goal": "Students explain historical interpretations about significant events, individuals and groups.",
+          "sub_strand": "historical_interpretation",
+          "level_key": "7"
+        },
+        {
+          "code": "AC9HH7S08",
+          "title": "Create historical arguments",
+          "description": "create descriptions, explanations and historical arguments, using historical knowledge, concepts and terms that reference evidence from sources",
+          "capability_goal": "Students create descriptions, explanations and historical arguments using historical knowledge, concepts and terms that reference evidence from sources.",
+          "sub_strand": "communicating",
+          "level_key": "7"
+        }
+      ]
+    },
+    "8": {
+      "label": "Year 8",
+      "standards": [
+        {
+          "code": "AC9HH8S01",
+          "title": "Refine historical questions",
+          "description": "develop historical questions about the past to inform historical inquiry",
+          "capability_goal": "Students develop historical questions about the past to inform historical inquiry.",
+          "sub_strand": "questioning",
+          "level_key": "8"
+        },
+        {
+          "code": "AC9HH8S02",
+          "title": "Locate and identify sources",
+          "description": "locate and identify primary and secondary sources to use in historical inquiry",
+          "capability_goal": "Students locate and identify primary and secondary sources to use in historical inquiry.",
+          "sub_strand": "researching",
+          "level_key": "8"
+        },
+        {
+          "code": "AC9HH8S03",
+          "title": "Identify source context and purpose",
+          "description": "identify the origin, content, context and purpose of primary and secondary sources",
+          "capability_goal": "Students identify the origin, content, context and purpose of primary and secondary sources.",
+          "sub_strand": "using_sources",
+          "level_key": "8"
+        },
+        {
+          "code": "AC9HH8S04",
+          "title": "Assess source accuracy and usefulness",
+          "description": "identify and describe the accuracy and usefulness of primary and secondary sources as evidence",
+          "capability_goal": "Students identify and describe the accuracy and usefulness of primary and secondary sources as evidence.",
+          "sub_strand": "using_sources",
+          "level_key": "8"
+        },
+        {
+          "code": "AC9HH8S05",
+          "title": "Explain continuity and change",
+          "description": "describe causes and effects, and explain continuities and changes",
+          "capability_goal": "Students describe causes and effects, and explain continuities and changes.",
+          "sub_strand": "historical_interpretation",
+          "level_key": "8"
+        },
+        {
+          "code": "AC9HH8S06",
+          "title": "Identify values and attitudes in sources",
+          "description": "identify perspectives, attitudes and values of the past in sources",
+          "capability_goal": "Students identify perspectives, attitudes and values of the past in sources.",
+          "sub_strand": "historical_interpretation",
+          "level_key": "8"
+        },
+        {
+          "code": "AC9HH8S07",
+          "title": "Explain interpretations of the past",
+          "description": "explain historical interpretations about significant events, individuals and groups",
+          "capability_goal": "Students explain historical interpretations about significant events, individuals and groups.",
+          "sub_strand": "historical_interpretation",
+          "level_key": "8"
+        },
+        {
+          "code": "AC9HH8S08",
+          "title": "Write sourced historical arguments",
+          "description": "create descriptions, explanations and historical arguments, using historical knowledge, concepts and terms that reference evidence from sources",
+          "capability_goal": "Students create descriptions, explanations and historical arguments using historical knowledge, concepts and terms that reference evidence from sources.",
+          "sub_strand": "communicating",
+          "level_key": "8"
+        }
+      ]
+    },
+    "9": {
+      "label": "Year 9",
+      "standards": [
+        {
+          "code": "AC9HH9S01",
+          "title": "Develop and modify inquiry questions",
+          "description": "develop and modify a range of historical questions about the past to inform historical inquiry",
+          "capability_goal": "Students develop and modify a range of historical questions about the past to inform historical inquiry.",
+          "sub_strand": "questioning",
+          "level_key": "9"
+        },
+        {
+          "code": "AC9HH9S02",
+          "title": "Compare primary and secondary sources",
+          "description": "locate, identify and compare primary and secondary sources to use in historical inquiry",
+          "capability_goal": "Students locate, identify and compare primary and secondary sources to use in historical inquiry.",
+          "sub_strand": "researching",
+          "level_key": "9"
+        },
+        {
+          "code": "AC9HH9S03",
+          "title": "Explain source purpose and context",
+          "description": "identify the origin and content of sources, and explain the purpose and context of primary and secondary sources",
+          "capability_goal": "Students identify the origin and content of sources, and explain the purpose and context of primary and secondary sources.",
+          "sub_strand": "using_sources",
+          "level_key": "9"
+        },
+        {
+          "code": "AC9HH9S04",
+          "title": "Explain reliability and usefulness",
+          "description": "explain the usefulness of primary and secondary sources, and the reliability of the information as evidence",
+          "capability_goal": "Students explain the usefulness of primary and secondary sources, and the reliability of the information as evidence.",
+          "sub_strand": "using_sources",
+          "level_key": "9"
+        },
+        {
+          "code": "AC9HH9S05",
+          "title": "Analyse cause and continuity",
+          "description": "analyse cause and effect, and evaluate patterns of continuity and change",
+          "capability_goal": "Students analyse cause and effect, and evaluate patterns of continuity and change.",
+          "sub_strand": "historical_interpretation",
+          "level_key": "9"
+        },
+        {
+          "code": "AC9HH9S06",
+          "title": "Compare historical perspectives",
+          "description": "compare perspectives in sources and explain how these are influenced by significant events, ideas, locations, beliefs and values",
+          "capability_goal": "Students compare perspectives in sources and explain how these are influenced by significant events, ideas, locations, beliefs and values.",
+          "sub_strand": "historical_interpretation",
+          "level_key": "9"
+        },
+        {
+          "code": "AC9HH9S07",
+          "title": "Analyse contested interpretations",
+          "description": "analyse different and contested historical interpretations",
+          "capability_goal": "Students analyse different and contested historical interpretations.",
+          "sub_strand": "historical_interpretation",
+          "level_key": "9"
+        },
+        {
+          "code": "AC9HH9S08",
+          "title": "Construct evidence-based historical arguments",
+          "description": "create descriptions, explanations and historical arguments, using historical knowledge, concepts and terms that incorporate and acknowledge evidence from sources",
+          "capability_goal": "Students create descriptions, explanations and historical arguments using historical knowledge, concepts and terms that incorporate and acknowledge evidence from sources.",
+          "sub_strand": "communicating",
+          "level_key": "9"
+        }
+      ]
+    },
+    "10": {
+      "label": "Year 10",
+      "standards": [
+        {
+          "code": "AC9HH10S01",
+          "title": "Refine historical inquiry questions",
+          "description": "develop and modify a range of historical questions about the past to inform historical inquiry",
+          "capability_goal": "Students develop and modify a range of historical questions about the past to inform historical inquiry.",
+          "sub_strand": "questioning",
+          "level_key": "10"
+        },
+        {
+          "code": "AC9HH10S02",
+          "title": "Compare sources for inquiry",
+          "description": "locate, identify and compare primary and secondary sources to use in a historical inquiry",
+          "capability_goal": "Students locate, identify and compare primary and secondary sources to use in a historical inquiry.",
+          "sub_strand": "researching",
+          "level_key": "10"
+        },
+        {
+          "code": "AC9HH10S03",
+          "title": "Explain source origin and context",
+          "description": "identify the origin and content of sources, and explain the purpose and context of primary and secondary sources",
+          "capability_goal": "Students identify the origin and content of sources, and explain the purpose and context of primary and secondary sources.",
+          "sub_strand": "using_sources",
+          "level_key": "10"
+        },
+        {
+          "code": "AC9HH10S04",
+          "title": "Evaluate evidence reliability",
+          "description": "explain the usefulness of primary and secondary sources, and the reliability of the information as evidence",
+          "capability_goal": "Students explain the usefulness of primary and secondary sources, and the reliability of the information as evidence.",
+          "sub_strand": "using_sources",
+          "level_key": "10"
+        },
+        {
+          "code": "AC9HH10S05",
+          "title": "Evaluate cause and continuity",
+          "description": "analyse cause and effect, and evaluate patterns of continuity and change",
+          "capability_goal": "Students analyse cause and effect, and evaluate patterns of continuity and change.",
+          "sub_strand": "historical_interpretation",
+          "level_key": "10"
+        },
+        {
+          "code": "AC9HH10S06",
+          "title": "Explain perspectives in context",
+          "description": "compare perspectives in sources and explain how these are influenced by significant events, ideas, locations, beliefs and values",
+          "capability_goal": "Students compare perspectives in sources and explain how these are influenced by significant events, ideas, locations, beliefs and values.",
+          "sub_strand": "historical_interpretation",
+          "level_key": "10"
+        },
+        {
+          "code": "AC9HH10S07",
+          "title": "Analyse historical debates",
+          "description": "analyse different and contested historical interpretations",
+          "capability_goal": "Students analyse different and contested historical interpretations.",
+          "sub_strand": "historical_interpretation",
+          "level_key": "10"
+        },
+        {
+          "code": "AC9HH10S08",
+          "title": "Communicate complex historical arguments",
+          "description": "create descriptions, explanations and historical arguments, using historical knowledge, concepts and terms that incorporate and acknowledge evidence from sources",
+          "capability_goal": "Students create descriptions, explanations and historical arguments using historical knowledge, concepts and terms that incorporate and acknowledge evidence from sources.",
+          "sub_strand": "communicating",
+          "level_key": "10"
+        }
+      ]
+    }
+  },
+  "capability_threads": {
+    "description": "Capability maturation sequences for History skills. Sequences show increasing sophistication across Years 7 to 10.",
+    "strands": {
+      "history_skills": {
+        "label": "History Skills",
+        "sub_strands": {
+          "questioning": {
+            "label": "Questioning and researching",
+            "short_label": "Questioning",
+            "color": "#2A6EBF",
+            "sequence": [
+              "AC9HH7S01",
+              "AC9HH8S01",
+              "AC9HH9S01",
+              "AC9HH10S01"
+            ]
+          },
+          "researching": {
+            "label": "Questioning and researching",
+            "short_label": "Researching",
+            "color": "#1E7A6A",
+            "sequence": [
+              "AC9HH7S02",
+              "AC9HH8S02",
+              "AC9HH9S02",
+              "AC9HH10S02"
+            ]
+          },
+          "using_sources": {
+            "label": "Using historical sources",
+            "short_label": "Sources",
+            "color": "#7A3FA8",
+            "sequence": [
+              "AC9HH7S03",
+              "AC9HH7S04",
+              "AC9HH8S03",
+              "AC9HH8S04",
+              "AC9HH9S03",
+              "AC9HH9S04",
+              "AC9HH10S03",
+              "AC9HH10S04"
+            ]
+          },
+          "historical_interpretation": {
+            "label": "Historical perspectives and interpretations",
+            "short_label": "Interpreting",
+            "color": "#B06010",
+            "sequence": [
+              "AC9HH7S05",
+              "AC9HH7S06",
+              "AC9HH7S07",
+              "AC9HH8S05",
+              "AC9HH8S06",
+              "AC9HH8S07",
+              "AC9HH9S05",
+              "AC9HH9S06",
+              "AC9HH9S07",
+              "AC9HH10S05",
+              "AC9HH10S06",
+              "AC9HH10S07"
+            ]
+          },
+          "communicating": {
+            "label": "Communicating",
+            "short_label": "Communicating",
+            "color": "#1A6E82",
+            "sequence": [
+              "AC9HH7S08",
+              "AC9HH8S08",
+              "AC9HH9S08",
+              "AC9HH10S08"
+            ]
+          }
+        }
+      }
+    }
+  }
+}

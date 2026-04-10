@@ -1,0 +1,492 @@
+{
+  "description": "HASS capability progression map — Skills, Foundation to Year 6. Organised by shared HASS skill strands for visualisation.",
+  "subject": "HASS",
+  "curriculum": "ACARA v9",
+  "levels": {
+    "F": {
+      "label": "Foundation",
+      "standards": [
+        {
+          "code": "AC9HSFS01",
+          "title": "Pose questions about familiar worlds",
+          "description": "pose questions about familiar objects, people, places and events",
+          "capability_goal": "Students pose questions about familiar objects, people, places and events.",
+          "sub_strand": "questioning",
+          "level_key": "F"
+        },
+        {
+          "code": "AC9HSFS02",
+          "title": "Sort and record information",
+          "description": "sort and record information including pictorial timelines and locations on pictorial maps or models",
+          "capability_goal": "Students sort and record information including pictorial timelines and locations on pictorial maps or models.",
+          "sub_strand": "researching",
+          "level_key": "F"
+        },
+        {
+          "code": "AC9HSFS03",
+          "title": "Share perspectives",
+          "description": "share a perspective on information, such as stories about significant events and special places",
+          "capability_goal": "Students share a perspective on information, such as stories about significant events and special places.",
+          "sub_strand": "analysing",
+          "level_key": "F"
+        },
+        {
+          "code": "AC9HSFS04",
+          "title": "Draw simple conclusions",
+          "description": "draw conclusions in response to questions",
+          "capability_goal": "Students draw conclusions in response to questions.",
+          "sub_strand": "evaluating",
+          "level_key": "F"
+        },
+        {
+          "code": "AC9HSFS05",
+          "title": "Share narratives and observations",
+          "description": "share narratives and observations, using sources and terms about the past and places",
+          "capability_goal": "Students share narratives and observations, using sources and terms about the past and places.",
+          "sub_strand": "communicating",
+          "level_key": "F"
+        }
+      ]
+    },
+    "1": {
+      "label": "Year 1",
+      "standards": [
+        {
+          "code": "AC9HS1S01",
+          "title": "Develop questions about past and present",
+          "description": "develop questions about objects, people, places and events in the past and present",
+          "capability_goal": "Students develop questions about objects, people, places and events in the past and present.",
+          "sub_strand": "questioning",
+          "level_key": "1"
+        },
+        {
+          "code": "AC9HS1S02",
+          "title": "Collect and record information",
+          "description": "collect, sort and record information and data from observations and from provided sources, including unscaled timelines and labelled maps or models",
+          "capability_goal": "Students collect, sort and record information and data from observations and provided sources, including unscaled timelines and labelled maps or models.",
+          "sub_strand": "researching",
+          "level_key": "1"
+        },
+        {
+          "code": "AC9HS1S03",
+          "title": "Interpret observations and comparisons",
+          "description": "interpret information and data from observations and provided sources, including the comparison of objects from the past and present",
+          "capability_goal": "Students interpret information and data from observations and provided sources, including comparisons of objects from the past and present.",
+          "sub_strand": "analysing",
+          "level_key": "1"
+        },
+        {
+          "code": "AC9HS1S04",
+          "title": "Discuss perspectives",
+          "description": "discuss perspectives related to objects, people, places and events",
+          "capability_goal": "Students discuss perspectives related to objects, people, places and events.",
+          "sub_strand": "analysing",
+          "level_key": "1"
+        },
+        {
+          "code": "AC9HS1S05",
+          "title": "Draw conclusions and make proposals",
+          "description": "draw conclusions and make proposals",
+          "capability_goal": "Students draw conclusions and make proposals.",
+          "sub_strand": "evaluating",
+          "level_key": "1"
+        },
+        {
+          "code": "AC9HS1S06",
+          "title": "Develop narratives and observations",
+          "description": "develop narratives and share observations, using sources, and subject-specific terms",
+          "capability_goal": "Students develop narratives and share observations, using sources and subject-specific terms.",
+          "sub_strand": "communicating",
+          "level_key": "1"
+        }
+      ]
+    },
+    "2": {
+      "label": "Year 2",
+      "standards": [
+        {
+          "code": "AC9HS2S01",
+          "title": "Develop inquiry questions",
+          "description": "develop questions about objects, people, places and events in the past and present",
+          "capability_goal": "Students develop questions about objects, people, places and events in the past and present.",
+          "sub_strand": "questioning",
+          "level_key": "2"
+        },
+        {
+          "code": "AC9HS2S02",
+          "title": "Collect and organise observations",
+          "description": "collect, sort and record information and data from observations and from provided sources, including unscaled timelines and labelled maps or models",
+          "capability_goal": "Students collect, sort and record information and data from observations and provided sources, including unscaled timelines and labelled maps or models.",
+          "sub_strand": "researching",
+          "level_key": "2"
+        },
+        {
+          "code": "AC9HS2S03",
+          "title": "Interpret information from sources",
+          "description": "interpret information and data from observations and provided sources, including the comparison of objects from the past and present",
+          "capability_goal": "Students interpret information and data from observations and provided sources, including comparisons of objects from the past and present.",
+          "sub_strand": "analysing",
+          "level_key": "2"
+        },
+        {
+          "code": "AC9HS2S04",
+          "title": "Discuss different perspectives",
+          "description": "discuss perspectives related to objects, people, places and events",
+          "capability_goal": "Students discuss perspectives related to objects, people, places and events.",
+          "sub_strand": "analysing",
+          "level_key": "2"
+        },
+        {
+          "code": "AC9HS2S05",
+          "title": "Draw conclusions and proposals",
+          "description": "draw conclusions and make proposals",
+          "capability_goal": "Students draw conclusions and make proposals.",
+          "sub_strand": "evaluating",
+          "level_key": "2"
+        },
+        {
+          "code": "AC9HS2S06",
+          "title": "Share narratives using terms",
+          "description": "develop narratives and share observations, using sources, and subject-specific terms",
+          "capability_goal": "Students develop narratives and share observations, using sources and subject-specific terms.",
+          "sub_strand": "communicating",
+          "level_key": "2"
+        }
+      ]
+    },
+    "3": {
+      "label": "Year 3",
+      "standards": [
+        {
+          "code": "AC9HS3S01",
+          "title": "Develop investigation questions",
+          "description": "develop questions to guide investigations about people, events, places and issues",
+          "capability_goal": "Students develop questions to guide investigations about people, events, places and issues.",
+          "sub_strand": "questioning",
+          "level_key": "3"
+        },
+        {
+          "code": "AC9HS3S02",
+          "title": "Locate and record source information",
+          "description": "locate, collect and record information and data from a range of sources, including annotated timelines and maps",
+          "capability_goal": "Students locate, collect and record information and data from a range of sources, including annotated timelines and maps.",
+          "sub_strand": "researching",
+          "level_key": "3"
+        },
+        {
+          "code": "AC9HS3S03",
+          "title": "Interpret information formats",
+          "description": "interpret information and data displayed in different formats",
+          "capability_goal": "Students interpret information and data displayed in different formats.",
+          "sub_strand": "analysing",
+          "level_key": "3"
+        },
+        {
+          "code": "AC9HS3S04",
+          "title": "Analyse perspectives",
+          "description": "analyse information and data, and identify perspectives",
+          "capability_goal": "Students analyse information and data, and identify perspectives.",
+          "sub_strand": "analysing",
+          "level_key": "3"
+        },
+        {
+          "code": "AC9HS3S05",
+          "title": "Draw conclusions from analysis",
+          "description": "draw conclusions based on analysis of information",
+          "capability_goal": "Students draw conclusions based on analysis of information.",
+          "sub_strand": "evaluating",
+          "level_key": "3"
+        },
+        {
+          "code": "AC9HS3S06",
+          "title": "Propose actions with effects",
+          "description": "propose actions or responses to an issue or challenge that consider possible effects of actions",
+          "capability_goal": "Students propose actions or responses to an issue or challenge that consider possible effects of actions.",
+          "sub_strand": "evaluating",
+          "level_key": "3"
+        },
+        {
+          "code": "AC9HS3S07",
+          "title": "Present descriptions and explanations",
+          "description": "present descriptions and explanations, using ideas from sources and relevant subject-specific terms",
+          "capability_goal": "Students present descriptions and explanations, using ideas from sources and relevant subject-specific terms.",
+          "sub_strand": "communicating",
+          "level_key": "3"
+        }
+      ]
+    },
+    "4": {
+      "label": "Year 4",
+      "standards": [
+        {
+          "code": "AC9HS4S01",
+          "title": "Develop guided investigation questions",
+          "description": "develop questions to guide investigations about people, events, places and issues",
+          "capability_goal": "Students develop questions to guide investigations about people, events, places and issues.",
+          "sub_strand": "questioning",
+          "level_key": "4"
+        },
+        {
+          "code": "AC9HS4S02",
+          "title": "Collect information from source ranges",
+          "description": "locate, collect and record information and data from a range of sources, including annotated timelines and maps",
+          "capability_goal": "Students locate, collect and record information and data from a range of sources, including annotated timelines and maps.",
+          "sub_strand": "researching",
+          "level_key": "4"
+        },
+        {
+          "code": "AC9HS4S03",
+          "title": "Interpret information displays",
+          "description": "interpret information and data displayed in different formats",
+          "capability_goal": "Students interpret information and data displayed in different formats.",
+          "sub_strand": "analysing",
+          "level_key": "4"
+        },
+        {
+          "code": "AC9HS4S04",
+          "title": "Analyse data and perspectives",
+          "description": "analyse information and data, and identify perspectives",
+          "capability_goal": "Students analyse information and data, and identify perspectives.",
+          "sub_strand": "analysing",
+          "level_key": "4"
+        },
+        {
+          "code": "AC9HS4S05",
+          "title": "Conclude from analysis",
+          "description": "draw conclusions based on analysis of information",
+          "capability_goal": "Students draw conclusions based on analysis of information.",
+          "sub_strand": "evaluating",
+          "level_key": "4"
+        },
+        {
+          "code": "AC9HS4S06",
+          "title": "Propose responses with effects",
+          "description": "propose actions or responses to an issue or challenge that consider possible effects of actions",
+          "capability_goal": "Students propose actions or responses to an issue or challenge that consider possible effects of actions.",
+          "sub_strand": "evaluating",
+          "level_key": "4"
+        },
+        {
+          "code": "AC9HS4S07",
+          "title": "Present sourced explanations",
+          "description": "present descriptions and explanations, using ideas from sources and relevant subject-specific terms",
+          "capability_goal": "Students present descriptions and explanations, using ideas from sources and relevant subject-specific terms.",
+          "sub_strand": "communicating",
+          "level_key": "4"
+        }
+      ]
+    },
+    "5": {
+      "label": "Year 5",
+      "standards": [
+        {
+          "code": "AC9HS5S01",
+          "title": "Develop system investigation questions",
+          "description": "develop questions to investigate people, events, developments, places and systems",
+          "capability_goal": "Students develop questions to investigate people, events, developments, places and systems.",
+          "sub_strand": "questioning",
+          "level_key": "5"
+        },
+        {
+          "code": "AC9HS5S02",
+          "title": "Organise primary and secondary sources",
+          "description": "locate, collect and organise information and data from primary and secondary sources in a range of formats",
+          "capability_goal": "Students locate, collect and organise information and data from primary and secondary sources in a range of formats.",
+          "sub_strand": "researching",
+          "level_key": "5"
+        },
+        {
+          "code": "AC9HS5S03",
+          "title": "Evaluate patterns and trends",
+          "description": "evaluate information and data in a range of formats to identify and describe patterns and trends, or to infer relationships",
+          "capability_goal": "Students evaluate information and data in a range of formats to identify and describe patterns and trends, or to infer relationships.",
+          "sub_strand": "analysing",
+          "level_key": "5"
+        },
+        {
+          "code": "AC9HS5S04",
+          "title": "Evaluate source purpose and perspective",
+          "description": "evaluate primary and secondary sources to determine origin, purpose and perspectives",
+          "capability_goal": "Students evaluate primary and secondary sources to determine origin, purpose and perspectives.",
+          "sub_strand": "analysing",
+          "level_key": "5"
+        },
+        {
+          "code": "AC9HS5S05",
+          "title": "Develop evidence-based conclusions",
+          "description": "develop evidence-based conclusions",
+          "capability_goal": "Students develop evidence-based conclusions.",
+          "sub_strand": "evaluating",
+          "level_key": "5"
+        },
+        {
+          "code": "AC9HS5S06",
+          "title": "Assess effects using criteria",
+          "description": "propose actions or responses to issues or challenges and use criteria to assess the possible effects",
+          "capability_goal": "Students propose actions or responses to issues or challenges and use criteria to assess the possible effects.",
+          "sub_strand": "evaluating",
+          "level_key": "5"
+        },
+        {
+          "code": "AC9HS5S07",
+          "title": "Present findings and viewpoints",
+          "description": "present descriptions and explanations, drawing ideas, findings and viewpoints from sources, and using relevant terms and conventions",
+          "capability_goal": "Students present descriptions and explanations, drawing ideas, findings and viewpoints from sources, and using relevant terms and conventions.",
+          "sub_strand": "communicating",
+          "level_key": "5"
+        }
+      ]
+    },
+    "6": {
+      "label": "Year 6",
+      "standards": [
+        {
+          "code": "AC9HS6S01",
+          "title": "Develop questions about systems",
+          "description": "develop questions to investigate people, events, developments, places and systems",
+          "capability_goal": "Students develop questions to investigate people, events, developments, places and systems.",
+          "sub_strand": "questioning",
+          "level_key": "6"
+        },
+        {
+          "code": "AC9HS6S02",
+          "title": "Organise information and data",
+          "description": "locate, collect and organise information and data from primary and secondary sources in a range of formats",
+          "capability_goal": "Students locate, collect and organise information and data from primary and secondary sources in a range of formats.",
+          "sub_strand": "researching",
+          "level_key": "6"
+        },
+        {
+          "code": "AC9HS6S03",
+          "title": "Identify patterns and relationships",
+          "description": "evaluate information and data in a range of formats to identify and describe patterns and trends, or to infer relationships",
+          "capability_goal": "Students evaluate information and data in a range of formats to identify and describe patterns and trends, or to infer relationships.",
+          "sub_strand": "analysing",
+          "level_key": "6"
+        },
+        {
+          "code": "AC9HS6S04",
+          "title": "Evaluate sources and perspectives",
+          "description": "evaluate primary and secondary sources to determine origin, purpose and perspectives",
+          "capability_goal": "Students evaluate primary and secondary sources to determine origin, purpose and perspectives.",
+          "sub_strand": "analysing",
+          "level_key": "6"
+        },
+        {
+          "code": "AC9HS6S05",
+          "title": "Develop evidence-based conclusions",
+          "description": "develop evidence-based conclusions",
+          "capability_goal": "Students develop evidence-based conclusions.",
+          "sub_strand": "evaluating",
+          "level_key": "6"
+        },
+        {
+          "code": "AC9HS6S06",
+          "title": "Assess possible effects",
+          "description": "propose actions or responses to issues or challenges and use criteria to assess the possible effects",
+          "capability_goal": "Students propose actions or responses to issues or challenges and use criteria to assess the possible effects.",
+          "sub_strand": "evaluating",
+          "level_key": "6"
+        },
+        {
+          "code": "AC9HS6S07",
+          "title": "Communicate findings and viewpoints",
+          "description": "present descriptions and explanations, drawing ideas, findings and viewpoints from sources, and using relevant terms and conventions",
+          "capability_goal": "Students present descriptions and explanations, drawing ideas, findings and viewpoints from sources, and using relevant terms and conventions.",
+          "sub_strand": "communicating",
+          "level_key": "6"
+        }
+      ]
+    }
+  },
+  "capability_threads": {
+    "description": "Capability maturation sequences for HASS skills from Foundation to Year 6.",
+    "strands": {
+      "hass_skills": {
+        "label": "HASS Skills",
+        "sub_strands": {
+          "questioning": {
+            "label": "Questioning and researching",
+            "short_label": "Questioning",
+            "color": "#2A6EBF",
+            "sequence": [
+              "AC9HSFS01",
+              "AC9HS1S01",
+              "AC9HS2S01",
+              "AC9HS3S01",
+              "AC9HS4S01",
+              "AC9HS5S01",
+              "AC9HS6S01"
+            ]
+          },
+          "researching": {
+            "label": "Questioning and researching",
+            "short_label": "Researching",
+            "color": "#1E7A6A",
+            "sequence": [
+              "AC9HSFS02",
+              "AC9HS1S02",
+              "AC9HS2S02",
+              "AC9HS3S02",
+              "AC9HS4S02",
+              "AC9HS5S02",
+              "AC9HS6S02"
+            ]
+          },
+          "analysing": {
+            "label": "Interpreting, analysing and evaluating",
+            "short_label": "Analysing",
+            "color": "#B06010",
+            "sequence": [
+              "AC9HSFS03",
+              "AC9HS1S03",
+              "AC9HS1S04",
+              "AC9HS2S03",
+              "AC9HS2S04",
+              "AC9HS3S03",
+              "AC9HS3S04",
+              "AC9HS4S03",
+              "AC9HS4S04",
+              "AC9HS5S03",
+              "AC9HS5S04",
+              "AC9HS6S03",
+              "AC9HS6S04"
+            ]
+          },
+          "evaluating": {
+            "label": "Concluding and decision-making",
+            "short_label": "Evaluating",
+            "color": "#C2185B",
+            "sequence": [
+              "AC9HSFS04",
+              "AC9HS1S05",
+              "AC9HS2S05",
+              "AC9HS3S05",
+              "AC9HS3S06",
+              "AC9HS4S05",
+              "AC9HS4S06",
+              "AC9HS5S05",
+              "AC9HS5S06",
+              "AC9HS6S05",
+              "AC9HS6S06"
+            ]
+          },
+          "communicating": {
+            "label": "Communicating",
+            "short_label": "Communicating",
+            "color": "#1A6E82",
+            "sequence": [
+              "AC9HSFS05",
+              "AC9HS1S06",
+              "AC9HS2S06",
+              "AC9HS3S07",
+              "AC9HS4S07",
+              "AC9HS5S07",
+              "AC9HS6S07"
+            ]
+          }
+        }
+      }
+    }
+  }
+}

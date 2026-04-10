@@ -1,0 +1,281 @@
+{
+  "description": "Geography capability progression map \u2014 Skills strand, Year 7 to 10. Four sub-strands following ACARA headings.",
+  "subject": "Geography",
+  "curriculum": "ACARA v9",
+  "levels": {
+    "7": {
+      "label": "Year 7",
+      "standards": [
+        {
+          "code": "AC9HG7S01",
+          "title": "Develop inquiry questions",
+          "description": "develop questions for a geographical inquiry related to a phenomenon or challenge",
+          "capability_goal": "Students develop questions for a geographical inquiry related to a phenomenon or challenge.",
+          "sub_strand": "questioning",
+          "level_key": "7"
+        },
+        {
+          "code": "AC9HG7S02",
+          "title": "Collect and represent data",
+          "description": "collect, organise and represent data and information from primary research methods, including fieldwork and secondary research materials, using geospatial technologies and digital tools as appropriate",
+          "capability_goal": "Students collect, organise and represent data from primary and secondary research methods using geospatial technologies.",
+          "sub_strand": "questioning",
+          "level_key": "7"
+        },
+        {
+          "code": "AC9HG7S03",
+          "title": "Interpret geographical data",
+          "description": "interpret and analyse geographical data and information to identify similarities and differences, explain patterns and trends and infer relationships",
+          "capability_goal": "Students interpret and analyse geographical data to identify similarities and differences, explain patterns and trends and infer relationships.",
+          "sub_strand": "interpreting",
+          "level_key": "7"
+        },
+        {
+          "code": "AC9HG7S04",
+          "title": "Draw conclusions",
+          "description": "draw conclusions based on the analysis of the data and information",
+          "capability_goal": "Students draw conclusions based on analysis of data and information.",
+          "sub_strand": "concluding",
+          "level_key": "7"
+        },
+        {
+          "code": "AC9HG7S05",
+          "title": "Identify strategies for action",
+          "description": "identify a strategy for action in relation to environmental, economic, social or other factors, and explain potential impacts",
+          "capability_goal": "Students identify a strategy for action and explain potential impacts.",
+          "sub_strand": "concluding",
+          "level_key": "7"
+        },
+        {
+          "code": "AC9HG7S06",
+          "title": "Create geographical responses",
+          "description": "create descriptions, explanations and responses, using geographical knowledge and methods, concepts, terms and reference sources",
+          "capability_goal": "Students create descriptions, explanations and responses using geographical knowledge, methods, concepts and terms.",
+          "sub_strand": "communicating",
+          "level_key": "7"
+        }
+      ]
+    },
+    "8": {
+      "label": "Year 8",
+      "standards": [
+        {
+          "code": "AC9HG8S01",
+          "title": "Develop inquiry questions",
+          "description": "develop questions for a geographical inquiry related to a phenomenon or challenge",
+          "capability_goal": "Students develop questions for a geographical inquiry related to a phenomenon or challenge.",
+          "sub_strand": "questioning",
+          "level_key": "8"
+        },
+        {
+          "code": "AC9HG8S02",
+          "title": "Collect and represent data",
+          "description": "collect, organise and represent data and information from primary research methods, including fieldwork and secondary research materials, using geospatial technologies and digital tools as appropriate",
+          "capability_goal": "Students collect, organise and represent data from primary and secondary research methods using geospatial technologies.",
+          "sub_strand": "questioning",
+          "level_key": "8"
+        },
+        {
+          "code": "AC9HG8S03",
+          "title": "Interpret geographical data",
+          "description": "interpret and analyse geographical data and information to identify similarities and differences, explain patterns and trends and infer relationships",
+          "capability_goal": "Students interpret and analyse geographical data to identify similarities and differences, explain patterns and trends and infer relationships.",
+          "sub_strand": "interpreting",
+          "level_key": "8"
+        },
+        {
+          "code": "AC9HG8S04",
+          "title": "Draw conclusions",
+          "description": "draw conclusions based on the analysis of the data and information",
+          "capability_goal": "Students draw conclusions based on analysis of data and information.",
+          "sub_strand": "concluding",
+          "level_key": "8"
+        },
+        {
+          "code": "AC9HG8S05",
+          "title": "Identify strategies for action",
+          "description": "identify a strategy for action in relation to environmental, economic, social or other factors, and explain potential impacts",
+          "capability_goal": "Students identify a strategy for action and explain potential impacts.",
+          "sub_strand": "concluding",
+          "level_key": "8"
+        },
+        {
+          "code": "AC9HG8S06",
+          "title": "Create geographical responses",
+          "description": "create descriptions, explanations and responses, using geographical knowledge and methods, concepts, terms and reference sources",
+          "capability_goal": "Students create descriptions, explanations and responses using geographical knowledge, methods, concepts and terms.",
+          "sub_strand": "communicating",
+          "level_key": "8"
+        }
+      ]
+    },
+    "9": {
+      "label": "Year 9",
+      "standards": [
+        {
+          "code": "AC9HG9S01",
+          "title": "Develop range of inquiry questions",
+          "description": "develop a range of questions for a geographical inquiry related to a phenomenon or challenge",
+          "capability_goal": "Students develop a range of questions for a geographical inquiry related to a phenomenon or challenge.",
+          "sub_strand": "questioning",
+          "level_key": "9"
+        },
+        {
+          "code": "AC9HG9S02",
+          "title": "Collect, represent and compare data",
+          "description": "collect, represent and compare data and information from primary research methods, including fieldwork and secondary research materials, using geospatial technologies and digital tools as appropriate",
+          "capability_goal": "Students collect, represent and compare data from primary and secondary research methods using geospatial technologies.",
+          "sub_strand": "questioning",
+          "level_key": "9"
+        },
+        {
+          "code": "AC9HG9S03",
+          "title": "Evaluate and generalise from data",
+          "description": "evaluate geographical data and information to make generalisations and predictions, explain patterns and trends and infer relationships",
+          "capability_goal": "Students evaluate geographical data to make generalisations and predictions, explain patterns and trends and infer relationships.",
+          "sub_strand": "interpreting",
+          "level_key": "9"
+        },
+        {
+          "code": "AC9HG9S04",
+          "title": "Justify conclusions",
+          "description": "evaluate data and information to justify conclusions",
+          "capability_goal": "Students evaluate data and information to justify conclusions.",
+          "sub_strand": "concluding",
+          "level_key": "9"
+        },
+        {
+          "code": "AC9HG9S05",
+          "title": "Evaluate and recommend strategies",
+          "description": "develop and evaluate strategies using environmental, economic or social criteria; recommend a strategy and explain the predicted impacts",
+          "capability_goal": "Students develop and evaluate strategies using environmental, economic or social criteria and recommend a course of action.",
+          "sub_strand": "concluding",
+          "level_key": "9"
+        },
+        {
+          "code": "AC9HG9S06",
+          "title": "Create referenced geographical responses",
+          "description": "create descriptions, explanations and responses, using geographical knowledge and geographical tools as appropriate, and concepts and terms that incorporate and acknowledge research findings",
+          "capability_goal": "Students create descriptions, explanations and responses using geographical knowledge and tools that incorporate and acknowledge research findings.",
+          "sub_strand": "communicating",
+          "level_key": "9"
+        }
+      ]
+    },
+    "10": {
+      "label": "Year 10",
+      "standards": [
+        {
+          "code": "AC9HG10S01",
+          "title": "Develop range of inquiry questions",
+          "description": "develop a range of questions for a geographical inquiry related to a phenomenon or challenge",
+          "capability_goal": "Students develop a range of questions for a geographical inquiry related to a phenomenon or challenge.",
+          "sub_strand": "questioning",
+          "level_key": "10"
+        },
+        {
+          "code": "AC9HG10S02",
+          "title": "Collect, represent and compare data",
+          "description": "collect, represent and compare data and information from primary research methods, including fieldwork and secondary research materials, using geospatial technologies and digital tools as appropriate",
+          "capability_goal": "Students collect, represent and compare data from primary and secondary research methods using geospatial technologies.",
+          "sub_strand": "questioning",
+          "level_key": "10"
+        },
+        {
+          "code": "AC9HG10S03",
+          "title": "Evaluate and generalise from data",
+          "description": "evaluate geographical data and information to make generalisations and predictions, explain patterns and trends and infer relationships",
+          "capability_goal": "Students evaluate geographical data to make generalisations and predictions, explain patterns and trends and infer relationships.",
+          "sub_strand": "interpreting",
+          "level_key": "10"
+        },
+        {
+          "code": "AC9HG10S04",
+          "title": "Justify conclusions",
+          "description": "evaluate data and information to justify conclusions",
+          "capability_goal": "Students evaluate data and information to justify conclusions.",
+          "sub_strand": "concluding",
+          "level_key": "10"
+        },
+        {
+          "code": "AC9HG10S05",
+          "title": "Evaluate and recommend strategies",
+          "description": "develop and evaluate strategies using environmental, economic or social criteria; recommend a strategy and explain the predicted impacts",
+          "capability_goal": "Students develop and evaluate strategies and recommend a course of action with predicted impacts.",
+          "sub_strand": "concluding",
+          "level_key": "10"
+        },
+        {
+          "code": "AC9HG10S06",
+          "title": "Create referenced geographical responses",
+          "description": "create descriptions, explanations and responses, using geographical knowledge and geographical tools as appropriate, and concepts and terms that incorporate and acknowledge research findings",
+          "capability_goal": "Students create descriptions, explanations and responses using geographical knowledge and tools that incorporate and acknowledge research findings.",
+          "sub_strand": "communicating",
+          "level_key": "10"
+        }
+      ]
+    }
+  },
+  "capability_threads": {
+    "description": "Geography skills capability sequences Y7-10 following ACARA sub-strand headings.",
+    "strands": {
+      "geography_skills": {
+        "label": "Geography Skills",
+        "sub_strands": {
+          "questioning": {
+            "label": "Questioning and researching using geographical methods",
+            "short_label": "Questioning & researching",
+            "color": "#2A6EBF",
+            "sequence": [
+              "AC9HG7S01",
+              "AC9HG7S02",
+              "AC9HG8S01",
+              "AC9HG8S02",
+              "AC9HG9S01",
+              "AC9HG9S02",
+              "AC9HG10S01",
+              "AC9HG10S02"
+            ]
+          },
+          "interpreting": {
+            "label": "Interpreting and analysing geographical data and information",
+            "short_label": "Interpreting & analysing",
+            "color": "#1E7A6A",
+            "sequence": [
+              "AC9HG7S03",
+              "AC9HG8S03",
+              "AC9HG9S03",
+              "AC9HG10S03"
+            ]
+          },
+          "concluding": {
+            "label": "Concluding and decision-making",
+            "short_label": "Concluding",
+            "color": "#B06010",
+            "sequence": [
+              "AC9HG7S04",
+              "AC9HG7S05",
+              "AC9HG8S04",
+              "AC9HG8S05",
+              "AC9HG9S04",
+              "AC9HG9S05",
+              "AC9HG10S04",
+              "AC9HG10S05"
+            ]
+          },
+          "communicating": {
+            "label": "Communicating",
+            "short_label": "Communicating",
+            "color": "#1A6E82",
+            "sequence": [
+              "AC9HG7S06",
+              "AC9HG8S06",
+              "AC9HG9S06",
+              "AC9HG10S06"
+            ]
+          }
+        }
+      }
+    }
+  }
+}

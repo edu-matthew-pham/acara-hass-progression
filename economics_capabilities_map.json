@@ -1,0 +1,245 @@
+{
+  "description": "Economics and Business capability progression map \u2014 Skills strand, Year 7 to 10. Four sub-strands following ACARA headings.",
+  "subject": "Economics and Business",
+  "curriculum": "ACARA v9",
+  "levels": {
+    "7": {
+      "label": "Year 7",
+      "standards": [
+        {
+          "code": "AC9HE7S01",
+          "title": "Develop inquiry questions",
+          "description": "develop questions to investigate a contemporary economic and business issue",
+          "capability_goal": "Students develop questions to investigate a contemporary economic and business issue.",
+          "sub_strand": "questioning",
+          "level_key": "7"
+        },
+        {
+          "code": "AC9HE7S02",
+          "title": "Locate and organise information",
+          "description": "locate, select and organise information and data from a range of sources",
+          "capability_goal": "Students locate, select and organise information and data from a range of sources.",
+          "sub_strand": "questioning",
+          "level_key": "7"
+        },
+        {
+          "code": "AC9HE7S03",
+          "title": "Interpret economic data",
+          "description": "interpret information and data to identify economic and business issues, trends and economic cause-and-effect relationships",
+          "capability_goal": "Students interpret information and data to identify economic and business issues, trends and cause-and-effect relationships.",
+          "sub_strand": "interpreting",
+          "level_key": "7"
+        },
+        {
+          "code": "AC9HE7S04",
+          "title": "Develop responses to issues",
+          "description": "develop a response to an economic and business issue, identifying potential costs and benefits",
+          "capability_goal": "Students develop a response to an economic and business issue, identifying potential costs and benefits.",
+          "sub_strand": "evaluating",
+          "level_key": "7"
+        },
+        {
+          "code": "AC9HE7S05",
+          "title": "Create economic explanations",
+          "description": "create descriptions and explanations, using economic and business knowledge, concepts and terms, and referencing information and data from sources",
+          "capability_goal": "Students create descriptions and explanations using economic and business knowledge, concepts and terms.",
+          "sub_strand": "communicating",
+          "level_key": "7"
+        }
+      ]
+    },
+    "8": {
+      "label": "Year 8",
+      "standards": [
+        {
+          "code": "AC9HE8S01",
+          "title": "Develop inquiry questions",
+          "description": "develop questions to investigate a contemporary economic and business issue",
+          "capability_goal": "Students develop questions to investigate a contemporary economic and business issue.",
+          "sub_strand": "questioning",
+          "level_key": "8"
+        },
+        {
+          "code": "AC9HE8S02",
+          "title": "Locate and organise information",
+          "description": "locate, select and organise information and data from a range of sources",
+          "capability_goal": "Students locate, select and organise information and data from a range of sources.",
+          "sub_strand": "questioning",
+          "level_key": "8"
+        },
+        {
+          "code": "AC9HE8S03",
+          "title": "Interpret economic data",
+          "description": "interpret information and data to identify economic and business issues, trends and economic cause-and-effect relationships",
+          "capability_goal": "Students interpret information and data to identify economic and business issues, trends and cause-and-effect relationships.",
+          "sub_strand": "interpreting",
+          "level_key": "8"
+        },
+        {
+          "code": "AC9HE8S04",
+          "title": "Develop responses to issues",
+          "description": "develop a response to an economic and business issue, identifying potential costs and benefits",
+          "capability_goal": "Students develop a response to an economic and business issue, identifying potential costs and benefits.",
+          "sub_strand": "evaluating",
+          "level_key": "8"
+        },
+        {
+          "code": "AC9HE8S05",
+          "title": "Create economic explanations",
+          "description": "create descriptions and explanations, using economic and business knowledge, concepts and terms, and referencing information and data from sources",
+          "capability_goal": "Students create descriptions and explanations using economic and business knowledge, concepts and terms.",
+          "sub_strand": "communicating",
+          "level_key": "8"
+        }
+      ]
+    },
+    "9": {
+      "label": "Year 9",
+      "standards": [
+        {
+          "code": "AC9HE9S01",
+          "title": "Develop and modify inquiry questions",
+          "description": "develop and modify questions to investigate a contemporary economic and business issue",
+          "capability_goal": "Students develop and modify questions to investigate a contemporary economic and business issue.",
+          "sub_strand": "questioning",
+          "level_key": "9"
+        },
+        {
+          "code": "AC9HE9S02",
+          "title": "Locate, select and analyse information",
+          "description": "locate, select and analyse information and data from a range of sources",
+          "capability_goal": "Students locate, select and analyse information and data from a range of sources.",
+          "sub_strand": "questioning",
+          "level_key": "9"
+        },
+        {
+          "code": "AC9HE9S03",
+          "title": "Interpret and predict economic impacts",
+          "description": "interpret information and data, explaining economic and business issues, trends and economic cause-and-effect relationships, and make predictions about consumer and financial impacts",
+          "capability_goal": "Students interpret information and data, explain economic trends and make predictions about consumer and financial impacts.",
+          "sub_strand": "interpreting",
+          "level_key": "9"
+        },
+        {
+          "code": "AC9HE9S04",
+          "title": "Evaluate and decide using cost-benefit",
+          "description": "develop and evaluate a response to an economic and business issue, using cost-benefit analysis or criteria to decide on a course of action",
+          "capability_goal": "Students develop and evaluate a response to an economic and business issue using cost-benefit analysis or criteria.",
+          "sub_strand": "evaluating",
+          "level_key": "9"
+        },
+        {
+          "code": "AC9HE9S05",
+          "title": "Create referenced economic arguments",
+          "description": "create descriptions, explanations and arguments, using economic and business knowledge, concepts and terms that incorporate and acknowledge research findings",
+          "capability_goal": "Students create descriptions, explanations and arguments using economic and business knowledge that incorporate and acknowledge research findings.",
+          "sub_strand": "communicating",
+          "level_key": "9"
+        }
+      ]
+    },
+    "10": {
+      "label": "Year 10",
+      "standards": [
+        {
+          "code": "AC9HE10S01",
+          "title": "Develop and modify inquiry questions",
+          "description": "develop and modify questions to investigate a contemporary economic and business issue",
+          "capability_goal": "Students develop and modify questions to investigate a contemporary economic and business issue.",
+          "sub_strand": "questioning",
+          "level_key": "10"
+        },
+        {
+          "code": "AC9HE10S02",
+          "title": "Locate, select and analyse information",
+          "description": "locate, select and analyse information and data from a range of sources",
+          "capability_goal": "Students locate, select and analyse information and data from a range of sources.",
+          "sub_strand": "questioning",
+          "level_key": "10"
+        },
+        {
+          "code": "AC9HE10S03",
+          "title": "Interpret and predict economic impacts",
+          "description": "interpret information and data, explaining economic and business issues, trends and economic cause-and-effect relationships, and make predictions about consumer and financial impacts",
+          "capability_goal": "Students interpret information and data, explain economic trends and make predictions about consumer and financial impacts.",
+          "sub_strand": "interpreting",
+          "level_key": "10"
+        },
+        {
+          "code": "AC9HE10S04",
+          "title": "Evaluate and decide using cost-benefit",
+          "description": "develop and evaluate a response to an economic and business issue, using cost-benefit analysis or criteria to decide on a course of action",
+          "capability_goal": "Students develop and evaluate a response to an economic and business issue using cost-benefit analysis or criteria.",
+          "sub_strand": "evaluating",
+          "level_key": "10"
+        },
+        {
+          "code": "AC9HE10S05",
+          "title": "Create referenced economic arguments",
+          "description": "create descriptions, explanations and arguments, using economic and business knowledge, concepts and terms that incorporate and acknowledge research findings",
+          "capability_goal": "Students create descriptions, explanations and arguments using economic and business knowledge that incorporate and acknowledge research findings.",
+          "sub_strand": "communicating",
+          "level_key": "10"
+        }
+      ]
+    }
+  },
+  "capability_threads": {
+    "description": "Economics and Business skills capability sequences Y7-10 following ACARA sub-strand headings.",
+    "strands": {
+      "economics_skills": {
+        "label": "Economics and Business Skills",
+        "sub_strands": {
+          "questioning": {
+            "label": "Questioning and researching",
+            "short_label": "Questioning",
+            "color": "#2A6EBF",
+            "sequence": [
+              "AC9HE7S01",
+              "AC9HE7S02",
+              "AC9HE8S01",
+              "AC9HE8S02",
+              "AC9HE9S01",
+              "AC9HE9S02",
+              "AC9HE10S01",
+              "AC9HE10S02"
+            ]
+          },
+          "interpreting": {
+            "label": "Interpreting and analysing",
+            "short_label": "Interpreting",
+            "color": "#1E7A6A",
+            "sequence": [
+              "AC9HE7S03",
+              "AC9HE8S03",
+              "AC9HE9S03",
+              "AC9HE10S03"
+            ]
+          },
+          "evaluating": {
+            "label": "Evaluating, concluding and decision-making",
+            "short_label": "Evaluating",
+            "color": "#B06010",
+            "sequence": [
+              "AC9HE7S04",
+              "AC9HE8S04",
+              "AC9HE9S04",
+              "AC9HE10S04"
+            ]
+          },
+          "communicating": {
+            "label": "Communicating",
+            "short_label": "Communicating",
+            "color": "#1A6E82",
+            "sequence": [
+              "AC9HE7S05",
+              "AC9HE8S05",
+              "AC9HE9S05",
+              "AC9HE10S05"
+            ]
+          }
+        }
+      }
+    }
+  }
+}

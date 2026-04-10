@@ -1,0 +1,456 @@
+{
+  "description": "Geography concept progression map \u2014 Knowledge and Understanding, Year 7 to 10. Columns are ACARA topic units. Standards within each unit are parallel aspects not sequential prerequisites.",
+  "subject": "Geography",
+  "curriculum": "ACARA v9",
+  "_notes": {
+    "column_model": "Columns are topic units, not year levels. Standards within a unit are parallel aspects of the same topic."
+  },
+  "year_levels": {
+    "Y7_water": {
+      "subject": "Geography",
+      "standards": [
+        {
+          "code": "AC9HG7K01",
+          "title": "Water as an environmental resource",
+          "description": "classification of environmental resources and the way that water connects and changes places as it moves through environments",
+          "y_goal": "Students explain how water is classified as an environmental resource and how it connects and changes places.",
+          "sub_strand": "all",
+          "level_key": "Y7_water"
+        },
+        {
+          "code": "AC9HG7K02",
+          "title": "Water distribution and sustainability",
+          "description": "the location and distribution of water resources in Australia, their implications, and strategies to manage the sustainability of water",
+          "y_goal": "Students explain the location and distribution of water resources in Australia and strategies to manage water sustainability.",
+          "sub_strand": "all",
+          "level_key": "Y7_water"
+        },
+        {
+          "code": "AC9HG7K03",
+          "title": "Values of water",
+          "description": "the economic, cultural, spiritual and aesthetic value of water for people, including First Nations Australians",
+          "y_goal": "Students explain the economic, cultural, spiritual and aesthetic value of water for people including First Nations Australians.",
+          "sub_strand": "all",
+          "level_key": "Y7_water"
+        },
+        {
+          "code": "AC9HG7K04",
+          "title": "Hydrological and atmospheric hazards",
+          "description": "the causes and impacts of an atmospheric or hydrological hazard, and responses from communities and governments",
+          "y_goal": "Students explain the causes and impacts of an atmospheric or hydrological hazard and responses from communities and governments.",
+          "sub_strand": "all",
+          "level_key": "Y7_water"
+        }
+      ]
+    },
+    "Y7_liveability": {
+      "subject": "Geography",
+      "standards": [
+        {
+          "code": "AC9HG7K05",
+          "title": "Liveability decisions",
+          "description": "factors that influence the decisions people make about where to live, including perceptions of the liveability of places and the influence of environmental quality",
+          "y_goal": "Students explain factors that influence where people live including perceptions of liveability and environmental quality.",
+          "sub_strand": "all",
+          "level_key": "Y7_liveability"
+        },
+        {
+          "code": "AC9HG7K06",
+          "title": "Services, facilities and liveability",
+          "description": "the location and distribution of services and facilities, and implications for liveability of places",
+          "y_goal": "Students explain the location and distribution of services and facilities and their implications for liveability.",
+          "sub_strand": "all",
+          "level_key": "Y7_liveability"
+        },
+        {
+          "code": "AC9HG7K07",
+          "title": "Cultural connectedness to place",
+          "description": "the cultural connectedness of people to places and how this influences their identity, sense of belonging and perceptions of a place, in particular the cultural connectedness of First Nations Australians to Country/Place",
+          "y_goal": "Students explain how cultural connectedness to places influences identity, belonging and perceptions, especially for First Nations Australians.",
+          "sub_strand": "all",
+          "level_key": "Y7_liveability"
+        },
+        {
+          "code": "AC9HG7K08",
+          "title": "Strategies for liveability",
+          "description": "strategies used to enhance the liveability of a place, including for young people, the aged or those with disability, drawing on studies such as those from Australia or Europe",
+          "y_goal": "Students explain strategies used to enhance the liveability of a place for different groups in the community.",
+          "sub_strand": "all",
+          "level_key": "Y7_liveability"
+        }
+      ]
+    },
+    "Y8_landforms": {
+      "subject": "Geography",
+      "standards": [
+        {
+          "code": "AC9HG8K01",
+          "title": "Geomorphological processes",
+          "description": "geomorphological processes that produce different landscapes and significant landforms",
+          "y_goal": "Students explain geomorphological processes that produce different landscapes and significant landforms.",
+          "sub_strand": "all",
+          "level_key": "Y8_landforms"
+        },
+        {
+          "code": "AC9HG8K02",
+          "title": "Landscape distribution",
+          "description": "the location and distribution of Australia's distinctive landscapes and significant landforms",
+          "y_goal": "Students explain the location and distribution of Australia's distinctive landscapes and significant landforms.",
+          "sub_strand": "all",
+          "level_key": "Y8_landforms"
+        },
+        {
+          "code": "AC9HG8K03",
+          "title": "Values of landscapes",
+          "description": "the spiritual, aesthetic and cultural value of landscapes and landforms for people, including Country/Place of First Nations Australians",
+          "y_goal": "Students explain the spiritual, aesthetic and cultural value of landscapes for people including First Nations Australians.",
+          "sub_strand": "all",
+          "level_key": "Y8_landforms"
+        },
+        {
+          "code": "AC9HG8K04",
+          "title": "Human activity and landscapes",
+          "description": "the interconnections between human activity and geomorphological processes, and ways of managing distinctive landscapes",
+          "y_goal": "Students explain the interconnections between human activity and geomorphological processes and ways of managing landscapes.",
+          "sub_strand": "all",
+          "level_key": "Y8_landforms"
+        },
+        {
+          "code": "AC9HG8K05",
+          "title": "Geomorphological hazards",
+          "description": "the causes and impacts of a geomorphological hazard on people, places and environments, and the effects of responses",
+          "y_goal": "Students explain the causes and impacts of a geomorphological hazard and the effects of responses.",
+          "sub_strand": "all",
+          "level_key": "Y8_landforms"
+        }
+      ]
+    },
+    "Y8_nations": {
+      "subject": "Geography",
+      "standards": [
+        {
+          "code": "AC9HG8K06",
+          "title": "Urbanisation and its impacts",
+          "description": "causes of urbanisation and its impacts on places and environments, drawing on a study from a country such as the United States of America, and its implications",
+          "y_goal": "Students explain the causes of urbanisation and its impacts on places and environments.",
+          "sub_strand": "all",
+          "level_key": "Y8_nations"
+        },
+        {
+          "code": "AC9HG8K07",
+          "title": "Urban distribution",
+          "description": "differences in the distribution of urban settlements and urban concentration in Australia compared with another country such as the United States of America, and their implications",
+          "y_goal": "Students explain differences in urban settlement distribution and concentration and their implications.",
+          "sub_strand": "all",
+          "level_key": "Y8_nations"
+        },
+        {
+          "code": "AC9HG8K08",
+          "title": "Migration and changing nations",
+          "description": "reasons for, and effects of, internal migration and international migration in Australia, China or other countries",
+          "y_goal": "Students explain reasons for and effects of internal and international migration.",
+          "sub_strand": "all",
+          "level_key": "Y8_nations"
+        },
+        {
+          "code": "AC9HG8K09",
+          "title": "Urban sustainability strategies",
+          "description": "strategies to manage the sustainability of Australia's changing urban places",
+          "y_goal": "Students explain strategies to manage the sustainability of Australia's changing urban places.",
+          "sub_strand": "all",
+          "level_key": "Y8_nations"
+        }
+      ]
+    },
+    "Y9_biomes": {
+      "subject": "Geography",
+      "standards": [
+        {
+          "code": "AC9HG9K01",
+          "title": "Biome distribution and characteristics",
+          "description": "the distribution and characteristics of biomes as regions with distinctive climates, soils, vegetation and productivity",
+          "y_goal": "Students explain the distribution and characteristics of biomes as regions with distinctive climates, soils, vegetation and productivity.",
+          "sub_strand": "all",
+          "level_key": "Y9_biomes"
+        },
+        {
+          "code": "AC9HG9K02",
+          "title": "Human alteration of biomes",
+          "description": "the effects on environments of human alteration of biomes to produce food, industrial materials and fibres",
+          "y_goal": "Students explain the effects on environments of human alteration of biomes.",
+          "sub_strand": "all",
+          "level_key": "Y9_biomes"
+        },
+        {
+          "code": "AC9HG9K03",
+          "title": "Agricultural productivity factors",
+          "description": "the environmental, economic and technological factors that impact agricultural productivity, in Australia and a country in Asia",
+          "y_goal": "Students explain the environmental, economic and technological factors that impact agricultural productivity.",
+          "sub_strand": "all",
+          "level_key": "Y9_biomes"
+        },
+        {
+          "code": "AC9HG9K04",
+          "title": "Food security challenges",
+          "description": "challenges to sustainable food production and food security in Australia and appropriate management strategies",
+          "y_goal": "Students explain challenges to sustainable food production and food security and appropriate management strategies.",
+          "sub_strand": "all",
+          "level_key": "Y9_biomes"
+        }
+      ]
+    },
+    "Y9_interconnections": {
+      "subject": "Geography",
+      "standards": [
+        {
+          "code": "AC9HG9K05",
+          "title": "Transport, technology and connection",
+          "description": "the ways changing transportation and technologies are used to connect people to services, information and people in other places",
+          "y_goal": "Students explain how changing transportation and technologies connect people to services, information and other places.",
+          "sub_strand": "all",
+          "level_key": "Y9_interconnections"
+        },
+        {
+          "code": "AC9HG9K06",
+          "title": "Travel choices and place impacts",
+          "description": "the effects on places of people's travel, recreational, cultural or leisure choices, and the strategies for managing the impacts on these places",
+          "y_goal": "Students explain the effects on places of travel and leisure choices and strategies for managing these impacts.",
+          "sub_strand": "all",
+          "level_key": "Y9_interconnections"
+        },
+        {
+          "code": "AC9HG9K07",
+          "title": "Trade interconnections",
+          "description": "the ways that places and people are interconnected with other places through trade in goods and services, at all scales",
+          "y_goal": "Students explain how places and people are interconnected through trade at different scales.",
+          "sub_strand": "all",
+          "level_key": "Y9_interconnections"
+        },
+        {
+          "code": "AC9HG9K08",
+          "title": "Consumption and global sustainability",
+          "description": "the impacts of the production and consumption of goods on places throughout the world, and strategies to manage sustainability in these places",
+          "y_goal": "Students explain the impacts of production and consumption on places and strategies to manage sustainability.",
+          "sub_strand": "all",
+          "level_key": "Y9_interconnections"
+        }
+      ]
+    },
+    "Y10_environment": {
+      "subject": "Geography",
+      "standards": [
+        {
+          "code": "AC9HG10K01",
+          "title": "Human-induced environmental change",
+          "description": "the human-induced changes that challenge the sustainability of places and environments",
+          "y_goal": "Students explain the human-induced changes that challenge the sustainability of places and environments.",
+          "sub_strand": "all",
+          "level_key": "Y10_environment"
+        },
+        {
+          "code": "AC9HG10K02",
+          "title": "Environmental worldviews",
+          "description": "the environmental world views of people and their implications for environmental management",
+          "y_goal": "Students explain environmental worldviews and their implications for environmental management.",
+          "sub_strand": "all",
+          "level_key": "Y10_environment"
+        },
+        {
+          "code": "AC9HG10K03",
+          "title": "First Nations environmental management",
+          "description": "First Nations Australians' approaches to custodial responsibility and environmental management in different regions of Australia",
+          "y_goal": "Students explain First Nations Australians' approaches to custodial responsibility and environmental management.",
+          "sub_strand": "all",
+          "level_key": "Y10_environment"
+        },
+        {
+          "code": "AC9HG10K04",
+          "title": "Managing environmental change",
+          "description": "causes and effects of a change in an identified environment at a local, national or global scale, and strategies to manage sustainability",
+          "y_goal": "Students explain the causes and effects of environmental change at different scales and strategies to manage sustainability.",
+          "sub_strand": "all",
+          "level_key": "Y10_environment"
+        }
+      ]
+    },
+    "Y10_wellbeing": {
+      "subject": "Geography",
+      "standards": [
+        {
+          "code": "AC9HG10K05",
+          "title": "Measuring human wellbeing",
+          "description": "the methods used to measure spatial variations in human wellbeing and development, and how these can be applied to determine differences between places at the global scale",
+          "y_goal": "Students explain methods used to measure spatial variations in human wellbeing and apply them to differences between places.",
+          "sub_strand": "all",
+          "level_key": "Y10_wellbeing"
+        },
+        {
+          "code": "AC9HG10K06",
+          "title": "Regional wellbeing variation",
+          "description": "reasons for, and consequences of, spatial variations in human wellbeing at a regional and national scale, drawing on studies such as from within India or another country in Asia",
+          "y_goal": "Students explain reasons for and consequences of spatial variations in human wellbeing at regional and national scales.",
+          "sub_strand": "all",
+          "level_key": "Y10_wellbeing"
+        },
+        {
+          "code": "AC9HG10K07",
+          "title": "Wellbeing variation in Australia",
+          "description": "reasons for, and consequences of, spatial variations in human wellbeing in Australia, including for First Nations Australians",
+          "y_goal": "Students explain reasons for and consequences of spatial variations in human wellbeing in Australia including for First Nations Australians.",
+          "sub_strand": "all",
+          "level_key": "Y10_wellbeing"
+        },
+        {
+          "code": "AC9HG10K08",
+          "title": "Responses to improve wellbeing",
+          "description": "responses of international and national government and non-government organisations to improve human wellbeing in Australia, within India and another country in the Pacific",
+          "y_goal": "Students explain responses of international and national organisations to improve human wellbeing in different places.",
+          "sub_strand": "all",
+          "level_key": "Y10_wellbeing"
+        }
+      ]
+    }
+  },
+  "progression_threads": {
+    "description": "Strands follow ACARA topic unit headings. Standards within each unit are parallel aspects not sequential.",
+    "strands": {
+      "all": {
+        "label": "Geography",
+        "tree": [
+          {
+            "code": "AC9HG7K01",
+            "children": []
+          },
+          {
+            "code": "AC9HG7K02",
+            "children": []
+          },
+          {
+            "code": "AC9HG7K03",
+            "children": []
+          },
+          {
+            "code": "AC9HG7K04",
+            "children": []
+          },
+          {
+            "code": "AC9HG7K05",
+            "children": []
+          },
+          {
+            "code": "AC9HG7K06",
+            "children": []
+          },
+          {
+            "code": "AC9HG7K07",
+            "children": []
+          },
+          {
+            "code": "AC9HG7K08",
+            "children": []
+          },
+          {
+            "code": "AC9HG8K01",
+            "children": []
+          },
+          {
+            "code": "AC9HG8K02",
+            "children": []
+          },
+          {
+            "code": "AC9HG8K03",
+            "children": []
+          },
+          {
+            "code": "AC9HG8K04",
+            "children": []
+          },
+          {
+            "code": "AC9HG8K05",
+            "children": []
+          },
+          {
+            "code": "AC9HG8K06",
+            "children": []
+          },
+          {
+            "code": "AC9HG8K07",
+            "children": []
+          },
+          {
+            "code": "AC9HG8K08",
+            "children": []
+          },
+          {
+            "code": "AC9HG8K09",
+            "children": []
+          },
+          {
+            "code": "AC9HG9K01",
+            "children": []
+          },
+          {
+            "code": "AC9HG9K02",
+            "children": []
+          },
+          {
+            "code": "AC9HG9K03",
+            "children": []
+          },
+          {
+            "code": "AC9HG9K04",
+            "children": []
+          },
+          {
+            "code": "AC9HG9K05",
+            "children": []
+          },
+          {
+            "code": "AC9HG9K06",
+            "children": []
+          },
+          {
+            "code": "AC9HG9K07",
+            "children": []
+          },
+          {
+            "code": "AC9HG9K08",
+            "children": []
+          },
+          {
+            "code": "AC9HG10K01",
+            "children": []
+          },
+          {
+            "code": "AC9HG10K02",
+            "children": []
+          },
+          {
+            "code": "AC9HG10K03",
+            "children": []
+          },
+          {
+            "code": "AC9HG10K04",
+            "children": []
+          },
+          {
+            "code": "AC9HG10K05",
+            "children": []
+          },
+          {
+            "code": "AC9HG10K06",
+            "children": []
+          },
+          {
+            "code": "AC9HG10K07",
+            "children": []
+          },
+          {
+            "code": "AC9HG10K08",
+            "children": []
+          }
+        ]
+      }
+    }
+  }
+}

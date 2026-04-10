@@ -1,0 +1,307 @@
+{
+  "description": "Economics and Business concept progression map \u2014 Knowledge and Understanding, Year 7 to 10. No ACARA sub-headings exist \u2014 strands are thematic groupings.",
+  "subject": "Economics and Business",
+  "curriculum": "ACARA v9",
+  "_notes": {
+    "strand_groupings": "ACARA Economics and Business K&U has no sub-headings. Strand groupings are thematic interpretations, not ACARA headings."
+  },
+  "year_levels": {
+    "7": {
+      "subject": "Economics and Business",
+      "standards": [
+        {
+          "code": "AC9HE7K01",
+          "title": "Opportunity cost and scarcity",
+          "description": "why opportunity cost exists as decisions are made to allocate limited resources to meet unlimited needs and wants",
+          "y_goal": "Students explain why opportunity cost exists as decisions are made to allocate limited resources to meet unlimited needs and wants.",
+          "sub_strand": "resources_markets",
+          "level_key": "7"
+        },
+        {
+          "code": "AC9HE7K02",
+          "title": "Purpose of businesses",
+          "description": "the reasons businesses exist and how different types of businesses provide goods and services",
+          "y_goal": "Students explain the reasons businesses exist and how different types of businesses provide goods and services.",
+          "sub_strand": "business_entrepreneurship",
+          "level_key": "7"
+        },
+        {
+          "code": "AC9HE7K03",
+          "title": "Entrepreneur characteristics",
+          "description": "characteristics of entrepreneurs and how these influence the success of a business",
+          "y_goal": "Students explain characteristics of entrepreneurs and how these influence the success of a business.",
+          "sub_strand": "business_entrepreneurship",
+          "level_key": "7"
+        },
+        {
+          "code": "AC9HE7K04",
+          "title": "Work and income",
+          "description": "the reasons individuals work, the types of work they are involved in, and how they may derive an income",
+          "y_goal": "Students explain the reasons individuals work, types of work and how income is derived.",
+          "sub_strand": "work_income_finance",
+          "level_key": "7"
+        },
+        {
+          "code": "AC9HE7K05",
+          "title": "Consumer rights and responsibilities",
+          "description": "the rights and responsibilities of individuals and businesses in relation to consumer and financial products and services",
+          "y_goal": "Students explain the rights and responsibilities of individuals and businesses in relation to consumer and financial products and services.",
+          "sub_strand": "work_income_finance",
+          "level_key": "7"
+        }
+      ]
+    },
+    "8": {
+      "subject": "Economics and Business",
+      "standards": [
+        {
+          "code": "AC9HE8K01",
+          "title": "Markets and price signals",
+          "description": "how markets influence decisions about the allocation of resources to the production of goods and services, and the effect of prices on these decisions",
+          "y_goal": "Students explain how markets influence resource allocation decisions and the effect of prices on these decisions.",
+          "sub_strand": "resources_markets",
+          "level_key": "8"
+        },
+        {
+          "code": "AC9HE8K02",
+          "title": "Business adaptation",
+          "description": "different ways that businesses adapt to opportunities in the market and respond to the changing nature of work",
+          "y_goal": "Students explain how businesses adapt to market opportunities and respond to the changing nature of work.",
+          "sub_strand": "business_entrepreneurship",
+          "level_key": "8"
+        },
+        {
+          "code": "AC9HE8K03",
+          "title": "First Nations enterprise",
+          "description": "how First Nations Australian businesses and entrepreneurs develop opportunities in the market",
+          "y_goal": "Students explain how First Nations Australian businesses and entrepreneurs develop market opportunities.",
+          "sub_strand": "business_entrepreneurship",
+          "level_key": "8"
+        },
+        {
+          "code": "AC9HE8K04",
+          "title": "Taxation and decision-making",
+          "description": "the importance of Australia's system of taxation and how this system affects decision-making by individuals and businesses",
+          "y_goal": "Students explain the importance of Australia's taxation system and how it affects decision-making by individuals and businesses.",
+          "sub_strand": "work_income_finance",
+          "level_key": "8"
+        },
+        {
+          "code": "AC9HE8K05",
+          "title": "Planning and budgeting",
+          "description": "processes that individuals and/or businesses use to plan and budget to achieve short-term and long-term financial objectives",
+          "y_goal": "Students explain processes individuals and businesses use to plan and budget for short- and long-term financial objectives.",
+          "sub_strand": "work_income_finance",
+          "level_key": "8"
+        }
+      ]
+    },
+    "9": {
+      "subject": "Economics and Business",
+      "standards": [
+        {
+          "code": "AC9HE9K01",
+          "title": "Financial sector role",
+          "description": "the role of Australia's financial sector and its effect on economic decision-making by individuals, businesses and global markets",
+          "y_goal": "Students explain the role of Australia's financial sector and its effect on economic decision-making by individuals, businesses and global markets.",
+          "sub_strand": "resources_markets",
+          "level_key": "9"
+        },
+        {
+          "code": "AC9HE9K02",
+          "title": "Economic interdependence",
+          "description": "how economic decision-making involves the interdependence of consumers, businesses, the financial sector and government",
+          "y_goal": "Students explain how economic decision-making involves the interdependence of consumers, businesses, the financial sector and government.",
+          "sub_strand": "resources_markets",
+          "level_key": "9"
+        },
+        {
+          "code": "AC9HE9K03",
+          "title": "Trade and global markets",
+          "description": "the reasons Australia trades with other nations, and the patterns of trade between Australia and Asia",
+          "y_goal": "Students explain the reasons Australia trades with other nations and patterns of trade between Australia and Asia.",
+          "sub_strand": "resources_markets",
+          "level_key": "9"
+        },
+        {
+          "code": "AC9HE9K04",
+          "title": "Competitive advantage",
+          "description": "processes that businesses use to create and maintain competitive advantage, including the role of entrepreneurs",
+          "y_goal": "Students explain processes businesses use to create and maintain competitive advantage including the role of entrepreneurs.",
+          "sub_strand": "business_entrepreneurship",
+          "level_key": "9"
+        },
+        {
+          "code": "AC9HE9K05",
+          "title": "Risk and reward management",
+          "description": "how individuals and businesses manage consumer and financial risks and rewards",
+          "y_goal": "Students explain how individuals and businesses manage consumer and financial risks and rewards.",
+          "sub_strand": "work_income_finance",
+          "level_key": "9"
+        }
+      ]
+    },
+    "10": {
+      "subject": "Economics and Business",
+      "standards": [
+        {
+          "code": "AC9HE10K01",
+          "title": "Economic indicators",
+          "description": "how and why the economic indicators influence economic decision-making",
+          "y_goal": "Students explain how and why economic indicators influence economic decision-making.",
+          "sub_strand": "resources_markets",
+          "level_key": "10"
+        },
+        {
+          "code": "AC9HE10K02",
+          "title": "Government economic intervention",
+          "description": "the ways that government intervenes in the economy to improve economic performance and living standards within Australian society",
+          "y_goal": "Students explain how government intervenes in the economy to improve economic performance and living standards.",
+          "sub_strand": "resources_markets",
+          "level_key": "10"
+        },
+        {
+          "code": "AC9HE10K03",
+          "title": "Major financial decisions",
+          "description": "factors that influence major consumer and financial decisions, and the short- and long-term consequences of these decisions",
+          "y_goal": "Students explain factors that influence major consumer and financial decisions and their short- and long-term consequences.",
+          "sub_strand": "work_income_finance",
+          "level_key": "10"
+        },
+        {
+          "code": "AC9HE10K04",
+          "title": "Superannuation system",
+          "description": "the importance of Australia's superannuation system and how this system affects consumer and financial decision-making",
+          "y_goal": "Students explain the importance of Australia's superannuation system and how it affects consumer and financial decision-making.",
+          "sub_strand": "work_income_finance",
+          "level_key": "10"
+        },
+        {
+          "code": "AC9HE10K05",
+          "title": "Workforce productivity",
+          "description": "processes that businesses use to manage the workforce and improve productivity, including the role of entrepreneurs",
+          "y_goal": "Students explain processes businesses use to manage the workforce and improve productivity including the role of entrepreneurs.",
+          "sub_strand": "business_entrepreneurship",
+          "level_key": "10"
+        }
+      ]
+    }
+  },
+  "progression_threads": {
+    "description": "Thematic strand groupings \u2014 ACARA has no sub-headings for Economics K&U.",
+    "strands": {
+      "resources_markets": {
+        "label": "Resources and Markets",
+        "tree": [
+          {
+            "code": "AC9HE7K01",
+            "children": [
+              {
+                "code": "AC9HE8K01",
+                "children": [
+                  {
+                    "code": "AC9HE9K01",
+                    "children": [
+                      {
+                        "code": "AC9HE9K02",
+                        "children": [
+                          {
+                            "code": "AC9HE9K03",
+                            "children": [
+                              {
+                                "code": "AC9HE10K01",
+                                "children": [
+                                  {
+                                    "code": "AC9HE10K02",
+                                    "children": []
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "business_entrepreneurship": {
+        "label": "Business and Entrepreneurship",
+        "tree": [
+          {
+            "code": "AC9HE7K02",
+            "children": [
+              {
+                "code": "AC9HE7K03",
+                "children": [
+                  {
+                    "code": "AC9HE8K02",
+                    "children": [
+                      {
+                        "code": "AC9HE8K03",
+                        "children": [
+                          {
+                            "code": "AC9HE9K04",
+                            "children": [
+                              {
+                                "code": "AC9HE10K05",
+                                "children": []
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "work_income_finance": {
+        "label": "Work, Income and Finance",
+        "tree": [
+          {
+            "code": "AC9HE7K04",
+            "children": [
+              {
+                "code": "AC9HE7K05",
+                "children": [
+                  {
+                    "code": "AC9HE8K04",
+                    "children": [
+                      {
+                        "code": "AC9HE8K05",
+                        "children": [
+                          {
+                            "code": "AC9HE9K05",
+                            "children": [
+                              {
+                                "code": "AC9HE10K03",
+                                "children": [
+                                  {
+                                    "code": "AC9HE10K04",
+                                    "children": []
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,245 @@
+{
+  "description": "Civics and Citizenship capability progression map \u2014 Skills strand, Year 7 to 10. Four sub-strands following ACARA headings.",
+  "subject": "Civics and Citizenship",
+  "curriculum": "ACARA v9",
+  "levels": {
+    "7": {
+      "label": "Year 7",
+      "standards": [
+        {
+          "code": "AC9HC7S01",
+          "title": "Develop civic inquiry questions",
+          "description": "develop questions to investigate Australia's political and legal systems, and contemporary civic issues",
+          "capability_goal": "Students develop questions to investigate Australia's political and legal systems and contemporary civic issues.",
+          "sub_strand": "questioning",
+          "level_key": "7"
+        },
+        {
+          "code": "AC9HC7S02",
+          "title": "Locate and organise information",
+          "description": "locate, select and organise information, data and ideas from different sources",
+          "capability_goal": "Students locate, select and organise information, data and ideas from different sources.",
+          "sub_strand": "questioning",
+          "level_key": "7"
+        },
+        {
+          "code": "AC9HC7S03",
+          "title": "Analyse civic perspectives",
+          "description": "analyse information, data and ideas about political, legal or civic issues to identify and explain differences in perspectives and potential challenges",
+          "capability_goal": "Students analyse information about political, legal or civic issues to identify and explain differences in perspectives and challenges.",
+          "sub_strand": "analysing",
+          "level_key": "7"
+        },
+        {
+          "code": "AC9HC7S04",
+          "title": "Explain civic participation methods",
+          "description": "explain the methods or strategies related to making decisions about civic participation",
+          "capability_goal": "Students explain the methods or strategies related to making decisions about civic participation.",
+          "sub_strand": "participating",
+          "level_key": "7"
+        },
+        {
+          "code": "AC9HC7S05",
+          "title": "Create civic arguments",
+          "description": "create descriptions, explanations and arguments using civics and citizenship knowledge, concepts and terms that reference evidence",
+          "capability_goal": "Students create descriptions, explanations and arguments using civics and citizenship knowledge that reference evidence.",
+          "sub_strand": "communicating",
+          "level_key": "7"
+        }
+      ]
+    },
+    "8": {
+      "label": "Year 8",
+      "standards": [
+        {
+          "code": "AC9HC8S01",
+          "title": "Develop civic inquiry questions",
+          "description": "develop questions to investigate Australia's political and legal systems, and contemporary civic issues",
+          "capability_goal": "Students develop questions to investigate Australia's political and legal systems and contemporary civic issues.",
+          "sub_strand": "questioning",
+          "level_key": "8"
+        },
+        {
+          "code": "AC9HC8S02",
+          "title": "Locate and organise information",
+          "description": "locate, select and organise information, data and ideas from different sources",
+          "capability_goal": "Students locate, select and organise information, data and ideas from different sources.",
+          "sub_strand": "questioning",
+          "level_key": "8"
+        },
+        {
+          "code": "AC9HC8S03",
+          "title": "Analyse civic perspectives",
+          "description": "analyse information, data and ideas about political, legal or civic issues to identify and explain differences in perspectives and potential challenges",
+          "capability_goal": "Students analyse information about political, legal or civic issues to identify and explain differences in perspectives and challenges.",
+          "sub_strand": "analysing",
+          "level_key": "8"
+        },
+        {
+          "code": "AC9HC8S04",
+          "title": "Explain civic participation methods",
+          "description": "explain the methods or strategies related to making decisions about civic participation",
+          "capability_goal": "Students explain the methods or strategies related to making decisions about civic participation.",
+          "sub_strand": "participating",
+          "level_key": "8"
+        },
+        {
+          "code": "AC9HC8S05",
+          "title": "Create civic arguments",
+          "description": "create descriptions, explanations and arguments using civics and citizenship knowledge, concepts and terms that reference evidence",
+          "capability_goal": "Students create descriptions, explanations and arguments using civics and citizenship knowledge that reference evidence.",
+          "sub_strand": "communicating",
+          "level_key": "8"
+        }
+      ]
+    },
+    "9": {
+      "label": "Year 9",
+      "standards": [
+        {
+          "code": "AC9HC9S01",
+          "title": "Develop and modify civic questions",
+          "description": "develop and modify questions to investigate Australia's political and legal systems, and contemporary civic issues",
+          "capability_goal": "Students develop and modify questions to investigate Australia's political and legal systems and contemporary civic issues.",
+          "sub_strand": "questioning",
+          "level_key": "9"
+        },
+        {
+          "code": "AC9HC9S02",
+          "title": "Locate, select and compare information",
+          "description": "locate, select and compare information, data and ideas from a range of sources",
+          "capability_goal": "Students locate, select and compare information, data and ideas from a range of sources.",
+          "sub_strand": "questioning",
+          "level_key": "9"
+        },
+        {
+          "code": "AC9HC9S03",
+          "title": "Evaluate civic perspectives",
+          "description": "analyse information, data and ideas about political, legal or civic issues to identify and evaluate differences in perspectives and interpretations",
+          "capability_goal": "Students analyse and evaluate information about political, legal or civic issues to identify differences in perspectives and interpretations.",
+          "sub_strand": "analysing",
+          "level_key": "9"
+        },
+        {
+          "code": "AC9HC9S04",
+          "title": "Evaluate civic participation methods",
+          "description": "evaluate the methods or strategies related to making decisions about civic participation",
+          "capability_goal": "Students evaluate the methods or strategies related to making decisions about civic participation.",
+          "sub_strand": "participating",
+          "level_key": "9"
+        },
+        {
+          "code": "AC9HC9S05",
+          "title": "Create evidence-based civic arguments",
+          "description": "create descriptions, explanations and arguments using civics and citizenship knowledge, concepts and terms that incorporate evidence",
+          "capability_goal": "Students create descriptions, explanations and arguments using civics and citizenship knowledge that incorporate evidence.",
+          "sub_strand": "communicating",
+          "level_key": "9"
+        }
+      ]
+    },
+    "10": {
+      "label": "Year 10",
+      "standards": [
+        {
+          "code": "AC9HC10S01",
+          "title": "Develop and modify civic questions",
+          "description": "develop and modify questions to investigate Australia's political and legal systems, and contemporary civic issues",
+          "capability_goal": "Students develop and modify questions to investigate Australia's political and legal systems and contemporary civic issues.",
+          "sub_strand": "questioning",
+          "level_key": "10"
+        },
+        {
+          "code": "AC9HC10S02",
+          "title": "Locate, select and compare information",
+          "description": "locate, select and compare information, data and ideas from a range of sources",
+          "capability_goal": "Students locate, select and compare information, data and ideas from a range of sources.",
+          "sub_strand": "questioning",
+          "level_key": "10"
+        },
+        {
+          "code": "AC9HC10S03",
+          "title": "Evaluate civic perspectives",
+          "description": "analyse information, data and ideas about political, legal or civic issues to identify and evaluate differences in perspectives and interpretations",
+          "capability_goal": "Students analyse and evaluate information about political, legal or civic issues to identify differences in perspectives and interpretations.",
+          "sub_strand": "analysing",
+          "level_key": "10"
+        },
+        {
+          "code": "AC9HC10S04",
+          "title": "Evaluate civic participation and outcomes",
+          "description": "evaluate the methods or strategies and outcomes related to making decisions about civic participation",
+          "capability_goal": "Students evaluate the methods, strategies and outcomes related to making decisions about civic participation.",
+          "sub_strand": "participating",
+          "level_key": "10"
+        },
+        {
+          "code": "AC9HC10S05",
+          "title": "Create evidence-based civic arguments",
+          "description": "create descriptions, explanations and arguments using civics and citizenship knowledge, concepts and terms that incorporate evidence",
+          "capability_goal": "Students create descriptions, explanations and arguments using civics and citizenship knowledge that incorporate evidence.",
+          "sub_strand": "communicating",
+          "level_key": "10"
+        }
+      ]
+    }
+  },
+  "capability_threads": {
+    "description": "Civics and Citizenship skills capability sequences Y7-10 following ACARA sub-strand headings.",
+    "strands": {
+      "civics_skills": {
+        "label": "Civics and Citizenship Skills",
+        "sub_strands": {
+          "questioning": {
+            "label": "Questioning and researching",
+            "short_label": "Questioning",
+            "color": "#2A6EBF",
+            "sequence": [
+              "AC9HC7S01",
+              "AC9HC7S02",
+              "AC9HC8S01",
+              "AC9HC8S02",
+              "AC9HC9S01",
+              "AC9HC9S02",
+              "AC9HC10S01",
+              "AC9HC10S02"
+            ]
+          },
+          "analysing": {
+            "label": "Analysis, evaluation and interpretation",
+            "short_label": "Analysing",
+            "color": "#1E7A6A",
+            "sequence": [
+              "AC9HC7S03",
+              "AC9HC8S03",
+              "AC9HC9S03",
+              "AC9HC10S03"
+            ]
+          },
+          "participating": {
+            "label": "Civic participation and decision-making",
+            "short_label": "Participating",
+            "color": "#B06010",
+            "sequence": [
+              "AC9HC7S04",
+              "AC9HC8S04",
+              "AC9HC9S04",
+              "AC9HC10S04"
+            ]
+          },
+          "communicating": {
+            "label": "Communicating",
+            "short_label": "Communicating",
+            "color": "#1A6E82",
+            "sequence": [
+              "AC9HC7S05",
+              "AC9HC8S05",
+              "AC9HC9S05",
+              "AC9HC10S05"
+            ]
+          }
+        }
+      }
+    }
+  }
+}

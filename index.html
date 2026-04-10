@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HASS Progression Maps</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: system-ui, sans-serif; background: #f8f8f6; color: #2c2c2a; }
+  .header { padding: 20px 24px 0; }
+  h1 { font-size: 18px; font-weight: 500; }
+  .subtitle { font-size: 13px; color: #888; margin-top: 4px; }
+  .tabs { display: flex; gap: 4px; padding: 16px 24px 0; border-bottom: 1px solid #e0e0de; flex-wrap: wrap; }
+  .tab {
+    font-size: 13px; padding: 7px 18px; border-radius: 8px 8px 0 0;
+    border: 1px solid transparent; border-bottom: none;
+    background: transparent; color: #888; cursor: pointer;
+    transition: all .15s; margin-bottom: -1px;
+  }
+  .tab.active { background: #f8f8f6; border-color: #e0e0de; color: #2c2c2a; font-weight: 500; }
+  .controls { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; padding: 14px 24px 12px; }
+  .strand-btn {
+    font-size: 12px; padding: 5px 14px; border-radius: 20px;
+    border: 1px solid #ccc; background: #fff;
+    color: #555; cursor: pointer; transition: all .15s;
+  }
+  .panel { display: none; }
+  .panel.active { display: block; }
+  svg { display: block; }
+  #tooltip {
+    position: fixed; pointer-events: none; opacity: 0; transition: opacity .15s;
+    background: #fff; border: 1px solid #ddd; border-radius: 10px;
+    padding: 12px 14px; max-width: 300px; z-index: 999;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+  }
+  #tooltip.show { opacity: 1; }
+  #tt-code  { font-size: 11px; margin-bottom: 3px; font-weight: 600; }
+  #tt-title { font-size: 13px; font-weight: 600; color: #222; margin-bottom: 6px; }
+  #tt-goal  { font-size: 12px; color: #555; line-height: 1.55; }
+
+  /* HASS F-6 */
+  .strand-btn.active-hist  { background:#8B5E3C; color:#fff; border-color:transparent; font-weight:500; }
+  .strand-btn.active-geo   { background:#2A6EBF; color:#fff; border-color:transparent; font-weight:500; }
+  .strand-btn.active-civ   { background:#5B3FA0; color:#fff; border-color:transparent; font-weight:500; }
+  .strand-btn.active-eco   { background:#1E7A6A; color:#fff; border-color:transparent; font-weight:500; }
+  /* Civics 7-10 */
+  .strand-btn.active-ccgd  { background:#2A6EBF; color:#fff; border-color:transparent; font-weight:500; }
+  .strand-btn.active-cclaw { background:#B06010; color:#fff; border-color:transparent; font-weight:500; }
+  .strand-btn.active-ccid  { background:#C2185B; color:#fff; border-color:transparent; font-weight:500; }
+  /* Economics 7-10 */
+  .strand-btn.active-erm   { background:#2A6EBF; color:#fff; border-color:transparent; font-weight:500; }
+  .strand-btn.active-ebe   { background:#1E7A6A; color:#fff; border-color:transparent; font-weight:500; }
+  .strand-btn.active-ewif  { background:#B06010; color:#fff; border-color:transparent; font-weight:500; }
+  /* Geography 7-10 — topic unit colours */
+  .strand-btn.active-gwater { background:#1E7A6A; color:#fff; border-color:transparent; font-weight:500; }
+  .strand-btn.active-glive  { background:#2A6EBF; color:#fff; border-color:transparent; font-weight:500; }
+  .strand-btn.active-gland  { background:#B06010; color:#fff; border-color:transparent; font-weight:500; }
+  .strand-btn.active-gnats  { background:#C2185B; color:#fff; border-color:transparent; font-weight:500; }
+  .strand-btn.active-gbio   { background:#5B3FA0; color:#fff; border-color:transparent; font-weight:500; }
+  .strand-btn.active-gint   { background:#1A6E82; color:#fff; border-color:transparent; font-weight:500; }
+  .strand-btn.active-genv   { background:#8B5E3C; color:#fff; border-color:transparent; font-weight:500; }
+  .strand-btn.active-gwb    { background:#3A2A6B; color:#fff; border-color:transparent; font-weight:500; }
+  /* History 7-10 — topic unit colours */
+  .strand-btn.active-hdt   { background:#7A3FA8; color:#fff; border-color:transparent; font-weight:500; }
+  .strand-btn.active-haw   { background:#2563A8; color:#fff; border-color:transparent; font-weight:500; }
+  .strand-btn.active-hme   { background:#1E7A6A; color:#fff; border-color:transparent; font-weight:500; }
+  .strand-btn.active-hemp  { background:#B06010; color:#fff; border-color:transparent; font-weight:500; }
+  .strand-btn.active-hap   { background:#C2185B; color:#fff; border-color:transparent; font-weight:500; }
+  .strand-btn.active-han   { background:#1A6E82; color:#fff; border-color:transparent; font-weight:500; }
+  .strand-btn.active-hww1  { background:#8B1A1A; color:#fff; border-color:transparent; font-weight:500; }
+  .strand-btn.active-hind  { background:#5A5A1A; color:#fff; border-color:transparent; font-weight:500; }
+  .strand-btn.active-hasw  { background:#1A5A5A; color:#fff; border-color:transparent; font-weight:500; }
+  .strand-btn.active-hww2  { background:#6B1A3A; color:#fff; border-color:transparent; font-weight:500; }
+  .strand-btn.active-hma   { background:#2A4A1A; color:#fff; border-color:transparent; font-weight:500; }
+  .strand-btn.active-hglo  { background:#3A2A6B; color:#fff; border-color:transparent; font-weight:500; }
+  .strand-btn.active-gall  { background:#1E7A6A; color:#fff; border-color:transparent; font-weight:500; }
+  .strand-btn.active-hall  { background:#8B5E3C; color:#fff; border-color:transparent; font-weight:500; }
+  /* Capabilities unified */
+  .strand-btn.active-hskill    { background:#1A6E82; color:#fff; border-color:transparent; font-weight:500; }
+  .strand-btn.active-ccskill   { background:#1A6E82; color:#fff; border-color:transparent; font-weight:500; }
+  .strand-btn.active-eskill    { background:#1A6E82; color:#fff; border-color:transparent; font-weight:500; }
+  .strand-btn.active-gskill    { background:#1A6E82; color:#fff; border-color:transparent; font-weight:500; }
+  .strand-btn.active-histskill { background:#1A6E82; color:#fff; border-color:transparent; font-weight:500; }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>HASS Progression Maps</h1>
+  <p class="subtitle">ACARA v9 — HASS F–6 and 7–10 subject specialisations</p>
+</div>
+
+<div class="tabs">
+  <button class="tab active" id="tab-hass-concepts"          onclick="switchTab('hass-concepts')">HASS Concepts</button>
+  <button class="tab"        id="tab-hass-capabilities"      onclick="switchTab('hass-capabilities')">HASS Capabilities</button>
+  <button class="tab"        id="tab-civics-concepts"        onclick="switchTab('civics-concepts')">Civics Concepts</button>
+  <button class="tab"        id="tab-civics-capabilities"    onclick="switchTab('civics-capabilities')">Civics Capabilities</button>
+  <button class="tab"        id="tab-economics-concepts"     onclick="switchTab('economics-concepts')">Economics Concepts</button>
+  <button class="tab"        id="tab-economics-capabilities" onclick="switchTab('economics-capabilities')">Economics Capabilities</button>
+  <button class="tab"        id="tab-geography-concepts"     onclick="switchTab('geography-concepts')">Geography Concepts</button>
+  <button class="tab"        id="tab-geography-capabilities" onclick="switchTab('geography-capabilities')">Geography Capabilities</button>
+  <button class="tab"        id="tab-history-concepts"       onclick="switchTab('history-concepts')">History Concepts</button>
+  <button class="tab"        id="tab-history-capabilities"   onclick="switchTab('history-capabilities')">History Capabilities</button>
+</div>
+
+<div class="panel active" id="panel-hass-concepts">
+  <div class="controls" id="strand-controls-hass-concepts"></div>
+  <div style="overflow-x:auto;padding:0 24px 32px"><svg id="tree-svg-hass-concepts"></svg></div>
+</div>
+<div class="panel" id="panel-hass-capabilities">
+  <div class="controls" id="strand-controls-hass-capabilities"></div>
+  <div style="overflow-x:auto;padding:0 24px 32px"><svg id="tree-svg-hass-capabilities"></svg></div>
+</div>
+<div class="panel" id="panel-civics-concepts">
+  <div class="controls" id="strand-controls-civics-concepts"></div>
+  <div style="overflow-x:auto;padding:0 24px 32px"><svg id="tree-svg-civics-concepts"></svg></div>
+</div>
+<div class="panel" id="panel-civics-capabilities">
+  <div class="controls" id="strand-controls-civics-capabilities"></div>
+  <div style="overflow-x:auto;padding:0 24px 32px"><svg id="tree-svg-civics-capabilities"></svg></div>
+</div>
+<div class="panel" id="panel-economics-concepts">
+  <div class="controls" id="strand-controls-economics-concepts"></div>
+  <div style="overflow-x:auto;padding:0 24px 32px"><svg id="tree-svg-economics-concepts"></svg></div>
+</div>
+<div class="panel" id="panel-economics-capabilities">
+  <div class="controls" id="strand-controls-economics-capabilities"></div>
+  <div style="overflow-x:auto;padding:0 24px 32px"><svg id="tree-svg-economics-capabilities"></svg></div>
+</div>
+<div class="panel" id="panel-geography-concepts">
+  <div class="controls" id="strand-controls-geography-concepts"></div>
+  <div style="overflow-x:auto;padding:0 24px 32px"><svg id="tree-svg-geography-concepts"></svg></div>
+</div>
+<div class="panel" id="panel-geography-capabilities">
+  <div class="controls" id="strand-controls-geography-capabilities"></div>
+  <div style="overflow-x:auto;padding:0 24px 32px"><svg id="tree-svg-geography-capabilities"></svg></div>
+</div>
+<div class="panel" id="panel-history-concepts">
+  <div class="controls" id="strand-controls-history-concepts"></div>
+  <div style="overflow-x:auto;padding:0 24px 32px"><svg id="tree-svg-history-concepts"></svg></div>
+</div>
+<div class="panel" id="panel-history-capabilities">
+  <div class="controls" id="strand-controls-history-capabilities"></div>
+  <div style="overflow-x:auto;padding:0 24px 32px"><svg id="tree-svg-history-capabilities"></svg></div>
+</div>
+
+<div id="tooltip">
+  <div id="tt-code"></div>
+  <div id="tt-title"></div>
+  <div id="tt-goal"></div>
+</div>
+
+<script>
+function switchTab(mode) {
+  document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+  document.querySelectorAll('.panel').forEach(p => p.classList.remove('active'));
+  document.getElementById('tab-' + mode).classList.add('active');
+  document.getElementById('panel-' + mode).classList.add('active');
+}
+function initConcepts(cfg) {
+  window.CONCEPTS_CONFIG = cfg;
+  return new Promise(resolve => {
+    const s = document.createElement('script');
+    s.src = 'render-concepts.js?' + cfg.svgId;
+    s.onload = resolve;
+    document.body.appendChild(s);
+  });
+}
+function initCapabilities(cfg) {
+  window.CAPABILITIES_CONFIG = cfg;
+  return new Promise(resolve => {
+    const s = document.createElement('script');
+    s.src = 'render-capabilities.js?' + cfg.svgId;
+    s.onload = resolve;
+    document.body.appendChild(s);
+  });
+}
+
+(async () => {
+
+  // ── HASS F-6 ──────────────────────────────────────────────────────────────
+  await initConcepts({
+    dataUrl: './hass_concepts_map.json',
+    levelOrder: ["F","1","2","3","4","5","6"],
+    levelLabels: {"F":"F","1":"Y1","2":"Y2","3":"Y3","4":"Y4","5":"Y5","6":"Y6"},
+    rowsPerStrand: 4,
+    strandConfig: {
+      history:            { color:"#8B5E3C", cssKey:"hist" },
+      geography:          { color:"#2A6EBF", cssKey:"geo"  },
+      civics_citizenship: { color:"#5B3FA0", cssKey:"civ"  },
+      economics_business: { color:"#1E7A6A", cssKey:"eco"  }
+    },
+    strandOrder: ["history","geography","civics_citizenship","economics_business"],
+    goalField: "y_goal",
+    svgId: "tree-svg-hass-concepts", controlsId: "strand-controls-hass-concepts"
+  });
+
+  await initCapabilities({
+    dataUrl: './hass_capabilities_map.json',
+    bandOrder: ["F","1","2","3","4","5","6"],
+    bandLabels: {"F":"F","1":"Y1","2":"Y2","3":"Y3","4":"Y4","5":"Y5","6":"Y6"},
+    strandConfig: { hass_skills: { color:"#1A6E82", cssKey:"hskill", label:"HASS Skills" } },
+    strandOrder: ["hass_skills"],
+    goalField: "capability_goal",
+    svgId: "tree-svg-hass-capabilities", controlsId: "strand-controls-hass-capabilities"
+  });
+
+  // ── CIVICS 7-10 ───────────────────────────────────────────────────────────
+  await initConcepts({
+    dataUrl: './civics_concepts_map.json',
+    levelOrder: ["7","8","9","10"],
+    levelLabels: {"7":"Y7","8":"Y8","9":"Y9","10":"Y10"},
+    rowsPerStrand: 3,
+    strandConfig: {
+      government_democracy: { color:"#2A6EBF", cssKey:"ccgd"  },
+      laws_citizens:        { color:"#B06010", cssKey:"cclaw" },
+      citizenship_identity: { color:"#C2185B", cssKey:"ccid"  }
+    },
+    strandOrder: ["government_democracy","laws_citizens","citizenship_identity"],
+    goalField: "y_goal",
+    svgId: "tree-svg-civics-concepts", controlsId: "strand-controls-civics-concepts"
+  });
+
+  await initCapabilities({
+    dataUrl: './civics_capabilities_map.json',
+    bandOrder: ["7","8","9","10"],
+    bandLabels: {"7":"Y7","8":"Y8","9":"Y9","10":"Y10"},
+    strandConfig: { civics_skills: { color:"#1A6E82", cssKey:"ccskill", label:"Civics Skills" } },
+    strandOrder: ["civics_skills"],
+    goalField: "capability_goal",
+    svgId: "tree-svg-civics-capabilities", controlsId: "strand-controls-civics-capabilities"
+  });
+
+  // ── ECONOMICS 7-10 ────────────────────────────────────────────────────────
+  await initConcepts({
+    dataUrl: './economics_concepts_map.json',
+    levelOrder: ["7","8","9","10"],
+    levelLabels: {"7":"Y7","8":"Y8","9":"Y9","10":"Y10"},
+    rowsPerStrand: 3,
+    strandConfig: {
+      resources_markets:         { color:"#2A6EBF", cssKey:"erm"  },
+      business_entrepreneurship: { color:"#1E7A6A", cssKey:"ebe"  },
+      work_income_finance:       { color:"#B06010", cssKey:"ewif" }
+    },
+    strandOrder: ["resources_markets","business_entrepreneurship","work_income_finance"],
+    goalField: "y_goal",
+    svgId: "tree-svg-economics-concepts", controlsId: "strand-controls-economics-concepts"
+  });
+
+  await initCapabilities({
+    dataUrl: './economics_capabilities_map.json',
+    bandOrder: ["7","8","9","10"],
+    bandLabels: {"7":"Y7","8":"Y8","9":"Y9","10":"Y10"},
+    strandConfig: { economics_skills: { color:"#1A6E82", cssKey:"eskill", label:"Economics Skills" } },
+    strandOrder: ["economics_skills"],
+    goalField: "capability_goal",
+    svgId: "tree-svg-economics-capabilities", controlsId: "strand-controls-economics-capabilities"
+  });
+
+  // ── GEOGRAPHY 7-10 — topic unit columns ───────────────────────────────────
+  await initConcepts({
+    dataUrl: './geography_concepts_map.json',
+    levelOrder: ["Y7_water","Y7_liveability","Y8_landforms","Y8_nations","Y9_biomes","Y9_interconnections","Y10_environment","Y10_wellbeing"],
+    levelLabels: {
+      "Y7_water":"Y7 Water","Y7_liveability":"Y7 Liveability",
+      "Y8_landforms":"Y8 Landforms","Y8_nations":"Y8 Changing Nations",
+      "Y9_biomes":"Y9 Biomes","Y9_interconnections":"Y9 Interconnections",
+      "Y10_environment":"Y10 Environment","Y10_wellbeing":"Y10 Wellbeing"
+    },
+    rowsPerStrand: 5,
+    colWidth: 160,
+    strandConfig: {
+      all: { color:"#1E7A6A", cssKey:"gall" }
+    },
+    strandOrder: ["all"],
+    goalField: "y_goal",
+    svgId: "tree-svg-geography-concepts", controlsId: "strand-controls-geography-concepts"
+  });
+
+  await initCapabilities({
+    dataUrl: './geography_capabilities_map.json',
+    bandOrder: ["7","8","9","10"],
+    bandLabels: {"7":"Y7","8":"Y8","9":"Y9","10":"Y10"},
+    strandConfig: { geography_skills: { color:"#1A6E82", cssKey:"gskill", label:"Geography Skills" } },
+    strandOrder: ["geography_skills"],
+    goalField: "capability_goal",
+    svgId: "tree-svg-geography-capabilities", controlsId: "strand-controls-geography-capabilities"
+  });
+
+  // ── HISTORY 7-10 — topic unit columns ─────────────────────────────────────
+  await initConcepts({
+    dataUrl: './history_concepts_map.json',
+    levelOrder: ["Y7_deep_time","Y7_ancient","Y8_medieval","Y8_empires","Y8_asia_pacific","Y9_australian_nation","Y9_ww1","Y9_industrial","Y9_asia_world","Y10_ww2","Y10_modern_australia","Y10_globalising"],
+    levelLabels: {
+      "Y7_deep_time":"Y7 Deep Time","Y7_ancient":"Y7 Ancient World",
+      "Y8_medieval":"Y8 Medieval Europe","Y8_empires":"Y8 Empires","Y8_asia_pacific":"Y8 Asia-Pacific",
+      "Y9_australian_nation":"Y9 Australian Nation","Y9_ww1":"Y9 WWI","Y9_industrial":"Y9 Industrial Rev.","Y9_asia_world":"Y9 Asia & World",
+      "Y10_ww2":"Y10 WWII","Y10_modern_australia":"Y10 Modern Australia","Y10_globalising":"Y10 Globalising World"
+    },
+    rowsPerStrand: 7,
+    colWidth: 160,
+    strandConfig: {
+      all: { color:"#8B5E3C", cssKey:"hall" }
+    },
+    strandOrder: ["all"],
+    goalField: "y_goal",
+    svgId: "tree-svg-history-concepts", controlsId: "strand-controls-history-concepts"
+  });
+
+  await initCapabilities({
+    dataUrl: './history_capabilities_map.json',
+    bandOrder: ["7","8","9","10"],
+    bandLabels: {"7":"Y7","8":"Y8","9":"Y9","10":"Y10"},
+    strandConfig: { history_skills: { color:"#1A6E82", cssKey:"histskill", label:"History Skills" } },
+    strandOrder: ["history_skills"],
+    goalField: "capability_goal",
+    svgId: "tree-svg-history-capabilities", controlsId: "strand-controls-history-capabilities"
+  });
+
+})();
+</script>
+
+</body>
+</html>
